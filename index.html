@@ -1,0 +1,1578 @@
+<!DOCTYPE html>
+<html lang="pt-BR" class="scroll-smooth">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Fabiana Costa | Neuropsicopedagoga - Especialista em TEA, TDAH e Alfabetização</title>
+    <meta name="description" content="Atendimento especializado em Neuropsicopedagogia para crianças, jovens e adultos. Especialista em Autismo (TEA), TDAH, aprendizagem e alfabetização em Feira de Santana e Região. Contato: (75) 92001-4219.">
+    <meta name="keywords" content="Neuropsicopedagoga, Fabiana Costa, Autismo, TEA, TDAH, Alfabetização, Dificuldades de Aprendizagem, Comorbidades do Desenvolvimento, Avaliação Neuropsicopedagógica, Clínica Infantil">
+    
+    <!-- Open Graph / Redes Sociais -->
+    <meta property="og:type" content="website">
+    <meta property="og:title" content="Fabiana Costa | Neuropsicopedagoga Clínica">
+    <meta property="og:description" content="Acolhimento humanizado e ciência para o desenvolvimento de crianças, jovens e adultos com Autismo, TDAH e desafios de aprendizagem.">
+    <meta property="og:image" content="assets/images/logo-vertical.png">
+
+    <!-- Favicon -->
+    <link rel="icon" type="image/png" href="assets/images/logo-icon.png">
+
+    <!-- Google Fonts: Poppins, Outfit & Nunito (Amigável, Lúdico e Elegante) -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Fredoka:wght@400;500;600;700&family=Nunito:wght@400;600;700;800;900&family=Outfit:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+    <!-- Tailwind CSS CDN -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            theme: {
+                extend: {
+                    colors: {
+                        brand: {
+                            purple: '#6B359C',      // Roxo da Logo (Fabiana Costa)
+                            purpleDark: '#53227E',
+                            purpleLight: '#8B4EC5',
+                            purpleSoft: '#F6F0FD',
+                            magenta: '#E61875',     // Rosa/Magenta da Logo
+                            yellow: '#FFAE19',      // Amarelo Dourado da Logo
+                            green: '#68BC45',       // Verde Folha/Lima da Logo
+                            cyan: '#00A9E0',        // Ciano / Azul Piscina da Logo
+                            blue: '#0288D1',        // Azul Royal da base da Logo
+                            blueDark: '#01579B',
+                            cream: '#FFFDF9',
+                            slateSoft: '#F8FAFC',
+                            coralSoft: '#FFF5F5',
+                        }
+                    },
+                    fontFamily: {
+                        sans: ['Nunito', 'sans-serif'],
+                        display: ['Outfit', 'sans-serif'],
+                        fun: ['Fredoka', 'sans-serif'],
+                    },
+                    boxShadow: {
+                        'soft-colored': '0 10px 30px -5px rgba(107, 53, 156, 0.15)',
+                        'card-hover': '0 20px 35px -10px rgba(0, 169, 224, 0.2)',
+                        'glow-yellow': '0 0 25px rgba(255, 174, 25, 0.45)',
+                        'glow-purple': '0 0 25px rgba(107, 53, 156, 0.4)',
+                    },
+                    animation: {
+                        'float': 'floating 4s ease-in-out infinite',
+                        'float-delayed': 'floating 4s ease-in-out 2s infinite',
+                        'pulse-slow': 'pulse 3s cubic-bezier(0.4, 0, 0.6, 1) infinite',
+                        'bubble': 'bubbleFloat 6s ease-in-out infinite',
+                    },
+                    keyframes: {
+                        floating: {
+                            '0%, 100%': { transform: 'translateY(0px)' },
+                            '50%': { transform: 'translateY(-12px)' },
+                        },
+                        bubbleFloat: {
+                            '0%, 100%': { transform: 'translate(0px, 0px) scale(1)' },
+                            '33%': { transform: 'translate(8px, -15px) scale(1.05)' },
+                            '66%': { transform: 'translate(-8px, -8px) scale(0.97)' },
+                        }
+                    }
+                }
+            }
+        }
+    </script>
+
+    <!-- Custom Stylesheet -->
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body class="bg-brand-cream text-gray-800 font-sans antialiased overflow-x-hidden selection:bg-brand-yellow selection:text-brand-purpleDark">
+
+    <!-- BARRA DE AVISO SUPERIOR (TOP ANNOUNCEMENT BAR) -->
+    <div class="bg-gradient-to-r from-brand-purple via-brand-magenta to-brand-blue text-white py-2.5 px-4 text-xs sm:text-sm font-semibold tracking-wide relative z-50">
+        <div class="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-2 text-center sm:text-left">
+            <div class="flex items-center gap-2 justify-center">
+                <span class="inline-flex items-center justify-center w-5 h-5 bg-yellow-400 text-brand-purpleDark rounded-full text-xs font-bold animate-bounce">
+                    <i class="fa-solid fa-star"></i>
+                </span>
+                <span>Atendimento Presencial e Online | Especialista em <strong>TEA</strong>, <strong>TDAH</strong> e <strong>Alfabetização</strong></span>
+            </div>
+            <a href="https://wa.me/5575920014219?text=Ol%C3%A1%2C%20Fabiana!%20Vi%20o%20seu%20site%20e%20gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20o%20atendimento%20neuropsicopedag%C3%B3gico." 
+               target="_blank" 
+               class="inline-flex items-center gap-1.5 bg-white/20 hover:bg-white text-white hover:text-brand-purpleDark px-3 py-1 rounded-full transition-all duration-300 text-xs font-bold backdrop-blur-sm shadow-sm">
+                <i class="fa-brands fa-whatsapp text-green-300"></i>
+                <span>Fale Conosco: (75) 92001-4219</span>
+            </a>
+        </div>
+    </div>
+
+    <!-- NAVBAR NAVEGAÇÃO -->
+    <header id="navbar" class="sticky top-0 z-40 bg-white/90 backdrop-blur-md border-b border-purple-100 transition-all duration-300">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="flex items-center justify-between h-20">
+                <!-- Logotipo Horizontal -->
+                <a href="#inicio" class="flex items-center gap-3 group">
+                    <img src="assets/images/logo-horizontal.png" alt="Fabiana Costa - Neuropsicopedagoga" class="h-12 sm:h-14 w-auto object-contain transition-transform duration-300 group-hover:scale-105">
+                </a>
+
+                <!-- Menu Desktop -->
+                <nav class="hidden lg:flex items-center gap-7 text-sm font-bold text-gray-700">
+                    <a href="#inicio" class="text-brand-purple hover:text-brand-magenta transition-colors">Início</a>
+                    <a href="#especialidades" class="hover:text-brand-purple transition-colors">Especialidades</a>
+                    <a href="#publico" class="hover:text-brand-purple transition-colors">Para Quem É</a>
+                    <a href="#triagem" class="hover:text-brand-purple transition-colors flex items-center gap-1.5 text-brand-magenta font-extrabold">
+                        <span class="w-2 h-2 rounded-full bg-brand-magenta animate-ping"></span>
+                        Triagem Rápida
+                    </a>
+                    <a href="#metodo" class="hover:text-brand-purple transition-colors">Como Funciona</a>
+                    <a href="#sobre" class="hover:text-brand-purple transition-colors">Sobre Fabiana</a>
+                    <a href="#depoimentos" class="hover:text-brand-purple transition-colors">Depoimentos</a>
+                    <a href="#faq" class="hover:text-brand-purple transition-colors">Dúvidas</a>
+                </nav>
+
+                <!-- Botão CTA Desktop -->
+                <div class="hidden sm:flex items-center gap-3">
+                    <a href="https://wa.me/5575920014219?text=Ol%C3%A1%2C%20Dra.%20Fabiana!%20Gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o%20neuropsicopedag%C3%B3gica."
+                       target="_blank"
+                       class="relative group overflow-hidden bg-gradient-to-r from-brand-purple to-brand-purpleLight text-white px-5 py-2.5 rounded-full font-bold text-sm shadow-soft-colored hover:shadow-lg transition-all duration-300 flex items-center gap-2 hover:-translate-y-0.5">
+                        <span class="absolute inset-0 w-full h-full bg-gradient-to-r from-brand-yellow via-brand-magenta to-brand-cyan opacity-0 group-hover:opacity-100 transition-opacity duration-500"></span>
+                        <span class="relative z-10 flex items-center gap-2">
+                            <i class="fa-brands fa-whatsapp text-lg text-white"></i>
+                            <span>Agendar Avaliação</span>
+                        </span>
+                    </a>
+                </div>
+
+                <!-- Botão Mobile Toggle -->
+                <div class="lg:hidden flex items-center gap-2">
+                    <a href="https://wa.me/5575920014219" target="_blank" class="w-10 h-10 rounded-full bg-green-500 text-white flex items-center justify-center text-lg shadow-md hover:bg-green-600 transition">
+                        <i class="fa-brands fa-whatsapp"></i>
+                    </a>
+                    <button id="mobile-menu-btn" class="w-10 h-10 rounded-xl bg-purple-50 text-brand-purple flex items-center justify-center hover:bg-purple-100 transition" aria-label="Abrir Menu">
+                        <i class="fa-solid fa-bars text-xl" id="menu-icon"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+
+        <!-- Menu Mobile Drawer -->
+        <div id="mobile-menu" class="hidden lg:hidden bg-white/95 backdrop-blur-xl border-b border-purple-100 px-6 py-6 transition-all duration-300">
+            <div class="flex flex-col gap-4 font-bold text-gray-700">
+                <a href="#inicio" class="mobile-link text-brand-purple py-2 border-b border-gray-100">Início</a>
+                <a href="#especialidades" class="mobile-link py-2 border-b border-gray-100">Especialidades (TEA, TDAH, Alfabetização)</a>
+                <a href="#publico" class="mobile-link py-2 border-b border-gray-100">Para Quem É (Crianças, Jovens, Adultos)</a>
+                <a href="#triagem" class="mobile-link py-2 border-b border-gray-100 text-brand-magenta flex items-center justify-between">
+                    <span>Teste de Triagem Rápida</span>
+                    <span class="px-2 py-0.5 text-xs bg-magenta-100 text-brand-magenta rounded-full font-bold">Interativo</span>
+                </a>
+                <a href="#metodo" class="mobile-link py-2 border-b border-gray-100">Metodologia Clínica</a>
+                <a href="#sobre" class="mobile-link py-2 border-b border-gray-100">Sobre Fabiana Costa</a>
+                <a href="#depoimentos" class="mobile-link py-2 border-b border-gray-100">Depoimentos de Famílias</a>
+                <a href="#faq" class="mobile-link py-2 border-b border-gray-100">Perguntas Frequentes</a>
+                
+                <div class="pt-3">
+                    <a href="https://wa.me/5575920014219?text=Ol%C3%A1%2C%20Fabiana!%20Gostaria%20de%20agendar%20uma%20consulta." target="_blank"
+                       class="w-full bg-brand-purple text-white text-center py-3 rounded-full font-extrabold flex items-center justify-center gap-2 shadow-md">
+                        <i class="fa-brands fa-whatsapp text-green-300 text-xl"></i>
+                        <span>Falar no WhatsApp (75) 92001-4219</span>
+                    </a>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- HERO SECTION (SUPER VISUAL, LÚDICA E COMERCIAL) -->
+    <section id="inicio" class="relative pt-8 pb-20 md:pt-14 md:pb-28 overflow-hidden bg-gradient-to-b from-purple-50/60 via-amber-50/30 to-brand-cream">
+        <!-- Elementos Lúdicos de Fundo Inspirados nas Bolhas Coloridas da Logo -->
+        <div class="absolute -top-12 -left-12 w-64 h-64 bg-brand-cyan/15 rounded-full blur-3xl pointer-events-none animate-bubble"></div>
+        <div class="absolute top-1/3 -right-20 w-80 h-80 bg-brand-yellow/20 rounded-full blur-3xl pointer-events-none animate-bubble" style="animation-delay: -2s;"></div>
+        <div class="absolute bottom-10 left-1/4 w-72 h-72 bg-brand-magenta/15 rounded-full blur-3xl pointer-events-none animate-bubble" style="animation-delay: -4s;"></div>
+        <div class="absolute top-1/2 left-2/3 w-60 h-60 bg-brand-green/15 rounded-full blur-3xl pointer-events-none animate-bubble"></div>
+
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 lg:gap-8 items-center">
+                
+                <!-- Coluna de Texto & Copywriting Persuasivo (7 Colunas) -->
+                <div class="lg:col-span-7 text-center lg:text-left space-y-6">
+                    
+                    <!-- Badge Divertido & Acolhedor -->
+                    <div class="inline-flex items-center gap-2.5 bg-white/90 border border-purple-200/80 shadow-sm px-4 py-2 rounded-full text-xs sm:text-sm font-extrabold text-brand-purple">
+                        <span class="flex h-3 w-3 relative">
+                            <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-brand-yellow opacity-75"></span>
+                            <span class="relative inline-flex rounded-full h-3 w-3 bg-brand-yellow"></span>
+                        </span>
+                        <span>Neurociência Aplicada com Afeto, Ética e Brincadeira</span>
+                    </div>
+
+                    <!-- Título Principal Poderoso -->
+                    <h1 class="text-3xl sm:text-4xl md:text-5xl xl:text-6xl font-extrabold font-display leading-[1.15] text-gray-900">
+                        Cada mente aprende de um jeito único. Nós ensinamos com 
+                        <span class="relative inline-block text-brand-purple">
+                            ciência e acolhimento.
+                            <!-- Sublinhado lúdico ondulado desenhado com gradiente -->
+                            <svg class="absolute -bottom-2 left-0 w-full h-3 text-brand-yellow" viewBox="0 0 250 15" fill="none" preserveAspectRatio="none">
+                                <path d="M3 10C50 3 100 14 150 7C200 1 230 12 247 9" stroke="currentColor" stroke-width="5" stroke-linecap="round"/>
+                            </svg>
+                        </span>
+                    </h1>
+
+                    <!-- Subtítulo Empático -->
+                    <p class="text-base sm:text-lg md:text-xl text-gray-600 font-medium leading-relaxed max-w-2xl mx-auto lg:mx-0">
+                        Seu filho enfrenta dificuldades na escola, choro na hora da lição ou desafios de foco e socialização? Atendimento clínico especializado para <span class="text-brand-purpleDark font-bold">crianças, jovens e adultos</span> com foco em <span class="bg-yellow-100 text-yellow-900 px-1.5 py-0.5 rounded-md font-bold">Autismo (TEA)</span>, <span class="bg-blue-100 text-blue-900 px-1.5 py-0.5 rounded-md font-bold">TDAH</span> e <span class="bg-green-100 text-green-900 px-1.5 py-0.5 rounded-md font-bold">Alfabetização</span>.
+                    </p>
+
+                    <!-- Benefícios Rápidos com Ícones Coloridos da Marca -->
+                    <div class="grid grid-cols-1 sm:grid-cols-2 gap-3 pt-2 text-left text-sm font-bold text-gray-700">
+                        <div class="flex items-center gap-2.5 bg-white/80 p-2.5 rounded-xl border border-purple-100 shadow-sm">
+                            <div class="w-8 h-8 rounded-lg bg-brand-yellow/20 text-brand-yellow flex items-center justify-center flex-shrink-0">
+                                <i class="fa-solid fa-puzzle-piece text-base"></i>
+                            </div>
+                            <span>Especialidade em TEA & Sensorial</span>
+                        </div>
+                        <div class="flex items-center gap-2.5 bg-white/80 p-2.5 rounded-xl border border-purple-100 shadow-sm">
+                            <div class="w-8 h-8 rounded-lg bg-brand-cyan/20 text-brand-cyan flex items-center justify-center flex-shrink-0">
+                                <i class="fa-solid fa-brain text-base"></i>
+                            </div>
+                            <span>Foco, TDAH & Funções Executivas</span>
+                        </div>
+                        <div class="flex items-center gap-2.5 bg-white/80 p-2.5 rounded-xl border border-purple-100 shadow-sm">
+                            <div class="w-8 h-8 rounded-lg bg-brand-green/20 text-brand-green flex items-center justify-center flex-shrink-0">
+                                <i class="fa-solid fa-book-open-reader text-base"></i>
+                            </div>
+                            <span>Alfabetização Lúdica & Sem Traumas</span>
+                        </div>
+                        <div class="flex items-center gap-2.5 bg-white/80 p-2.5 rounded-xl border border-purple-100 shadow-sm">
+                            <div class="w-8 h-8 rounded-lg bg-brand-magenta/20 text-brand-magenta flex items-center justify-center flex-shrink-0">
+                                <i class="fa-solid fa-hands-holding-child text-base"></i>
+                            </div>
+                            <span>Suporte Integrado Família & Escola</span>
+                        </div>
+                    </div>
+
+                    <!-- Call To Actions Estratégicos -->
+                    <div class="pt-4 flex flex-col sm:flex-row items-center justify-center lg:justify-start gap-4">
+                        <a href="https://wa.me/5575920014219?text=Ol%C3%A1%2C%20Fabiana!%20Gostaria%20de%20conversar%20sobre%20o%20desenvolvimento%20do%20meu%20filho(a)%20e%20agendar%20uma%20avalia%C3%A7%C3%A3o."
+                           target="_blank"
+                           class="w-full sm:w-auto px-8 py-4 bg-gradient-to-r from-green-500 to-emerald-600 hover:from-green-600 hover:to-emerald-700 text-white rounded-full font-extrabold text-base shadow-lg shadow-green-500/30 hover:shadow-green-500/50 flex items-center justify-center gap-3 transition-all duration-300 transform hover:-translate-y-1">
+                            <i class="fa-brands fa-whatsapp text-2xl animate-bounce"></i>
+                            <div class="text-left">
+                                <div class="text-xs uppercase tracking-wider text-green-100 font-bold">Fale Diretamente Comigo</div>
+                                <div class="text-base font-extrabold leading-tight">Agendar no WhatsApp</div>
+                            </div>
+                        </a>
+
+                        <a href="#triagem" 
+                           class="w-full sm:w-auto px-7 py-4 bg-white hover:bg-purple-50 text-brand-purple border-2 border-brand-purple/30 hover:border-brand-purple rounded-full font-extrabold text-sm sm:text-base flex items-center justify-center gap-2.5 shadow-sm transition-all duration-300">
+                            <i class="fa-solid fa-list-check text-brand-magenta"></i>
+                            <span>Fazer Triagem Rápida Online</span>
+                        </a>
+                    </div>
+
+                    <!-- Selo de Atendimento Humanizado -->
+                    <div class="pt-3 flex items-center justify-center lg:justify-start gap-4 text-xs text-gray-500 font-semibold">
+                        <span class="flex items-center gap-1.5">
+                            <i class="fa-solid fa-check-circle text-brand-green"></i> Resposta rápida no WhatsApp
+                        </span>
+                        <span class="flex items-center gap-1.5">
+                            <i class="fa-solid fa-check-circle text-brand-green"></i> Avaliação individualizada
+                        </span>
+                        <span class="flex items-center gap-1.5">
+                            <i class="fa-solid fa-check-circle text-brand-green"></i> Relatório clínico detalhado
+                        </span>
+                    </div>
+
+                </div>
+
+                <!-- Coluna Visual & Fotos com Moldura Lúdica e Elementos da Logo (5 Colunas) -->
+                <div class="lg:col-span-5 relative">
+                    <div class="relative mx-auto max-w-md lg:max-w-none">
+                        
+                        <!-- Círculos de Fundo com as cores da identidade visual -->
+                        <div class="absolute -top-6 -right-6 w-32 h-32 rounded-full bg-brand-yellow/30 border-4 border-white shadow-lg animate-float"></div>
+                        <div class="absolute -bottom-8 -left-6 w-24 h-24 rounded-full bg-brand-magenta/30 border-4 border-white shadow-lg animate-float-delayed"></div>
+                        <div class="absolute top-1/2 -right-8 w-16 h-16 rounded-full bg-brand-cyan/40 border-2 border-white shadow-md animate-pulse-slow"></div>
+                        <div class="absolute top-4 left-4 w-12 h-12 rounded-full bg-brand-green/30 border-2 border-white shadow-sm"></div>
+
+                        <!-- Card Principal com Foto de Criança Feliz Aprendendo -->
+                        <div class="relative z-10 bg-white p-3 sm:p-4 rounded-3xl shadow-soft-colored border-4 border-white overflow-hidden transform transition-all duration-500 hover:rotate-1">
+                            <div class="relative rounded-2xl overflow-hidden aspect-[4/4.6]">
+                                <!-- Foto de alta resolução de criança aprendendo com alegria e blocos/jogos educativos -->
+                                <img src="https://images.unsplash.com/photo-1596495578065-6e0763fa1178?q=80&w=1000&auto=format&fit=crop" 
+                                     alt="Criança aprendendo e desenvolvendo habilidades cognitivas com alegria" 
+                                     class="w-full h-full object-cover object-center transform transition-transform duration-700 hover:scale-105">
+                                
+                                <!-- Gradiente sutil inferior -->
+                                <div class="absolute inset-0 bg-gradient-to-t from-brand-purpleDark/80 via-transparent to-transparent"></div>
+
+                                <!-- Badge Flutuante no Topo da Imagem -->
+                                <div class="absolute top-4 left-4 bg-white/95 backdrop-blur-md px-3.5 py-1.5 rounded-full flex items-center gap-2 shadow-md">
+                                    <img src="assets/images/logo-icon.png" alt="Ícone Fabiana Costa" class="w-6 h-6 object-contain">
+                                    <span class="text-xs font-black text-brand-purple">Método Humanizado</span>
+                                </div>
+
+                                <!-- Texto sobre a imagem na base -->
+                                <div class="absolute bottom-4 left-4 right-4 text-white">
+                                    <p class="text-xs uppercase tracking-wider text-yellow-300 font-extrabold">Potencial Ilimitado</p>
+                                    <p class="text-lg font-extrabold leading-snug">"Aprender com prazer é o maior estímulo do cérebro."</p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- Card Flutuante 1: Notificação de Progresso Real -->
+                        <div class="absolute -bottom-6 right-2 sm:-right-6 z-20 bg-white p-3.5 rounded-2xl shadow-xl border border-purple-100 flex items-center gap-3 animate-float max-w-[240px]">
+                            <div class="w-10 h-10 rounded-xl bg-gradient-to-tr from-brand-yellow to-amber-300 text-white flex items-center justify-center text-lg shadow-sm flex-shrink-0">
+                                <i class="fa-solid fa-graduation-cap"></i>
+                            </div>
+                            <div>
+                                <div class="text-xs font-black text-gray-900 leading-tight">Alfabetização Destravada</div>
+                                <div class="text-[11px] text-gray-500 font-semibold">Leitura fluida e sem estresse</div>
+                            </div>
+                        </div>
+
+                        <!-- Card Flutuante 2: Avaliação TEA & TDAH -->
+                        <div class="absolute -top-6 -left-4 sm:-left-8 z-20 bg-white p-3 rounded-2xl shadow-xl border border-blue-100 flex items-center gap-3 animate-float-delayed max-w-[230px]">
+                            <div class="w-10 h-10 rounded-xl bg-gradient-to-tr from-brand-cyan to-brand-blue text-white flex items-center justify-center text-lg shadow-sm flex-shrink-0">
+                                <i class="fa-solid fa-heart-pulse"></i>
+                            </div>
+                            <div>
+                                <div class="text-xs font-black text-brand-purple leading-tight">Apoio a Famílias</div>
+                                <div class="text-[11px] text-gray-500 font-semibold">Plano individualizado</div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Onda Transição Lúdica e Suave -->
+        <div class="absolute bottom-0 left-0 right-0 w-full overflow-hidden leading-none pointer-events-none">
+            <svg class="relative block w-full h-8 sm:h-12 text-white" viewBox="0 0 1200 120" preserveAspectRatio="none">
+                <path d="M0,0 C150,90 400,100 600,40 C800,-20 1000,80 1200,20 L1200,120 L0,120 Z" fill="currentColor"></path>
+            </svg>
+        </div>
+    </section>
+
+    <!-- FAIXA DE IMPACTO / DORES DOS PAIS & PACIENTES -->
+    <section class="py-12 bg-white relative">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="bg-gradient-to-r from-purple-900 via-brand-purple to-indigo-900 rounded-3xl p-8 sm:p-12 text-white shadow-xl relative overflow-hidden">
+                <!-- Bolhas de fundo translúcidas -->
+                <div class="absolute -right-10 -bottom-10 w-48 h-48 bg-brand-magenta/30 rounded-full blur-2xl"></div>
+                <div class="absolute -left-10 -top-10 w-48 h-48 bg-brand-yellow/30 rounded-full blur-2xl"></div>
+
+                <div class="relative z-10 grid grid-cols-1 md:grid-cols-12 gap-8 items-center">
+                    <div class="md:col-span-8 space-y-3 text-center md:text-left">
+                        <span class="inline-block px-3 py-1 bg-yellow-400 text-purple-950 font-black text-xs uppercase tracking-wider rounded-full">
+                            Você se identifica com algum desses cenários?
+                        </span>
+                        <h2 class="text-2xl sm:text-3xl font-extrabold font-display leading-tight">
+                            "Meu filho é inteligente, mas na escola parece que trava ou não presta atenção em nada..."
+                        </h2>
+                        <p class="text-purple-100 text-sm sm:text-base leading-relaxed">
+                            Muitas vezes a dificuldade não é preguiça nem falta de esforço. Crianças e jovens com TEA, TDAH ou bloqueios de alfabetização processam o mundo e as informações de forma diferente. Quanto antes oferecermos a chave certa, mais leve será o aprendizado.
+                        </p>
+                    </div>
+                    <div class="md:col-span-4 flex flex-col items-center md:items-end justify-center">
+                        <a href="https://wa.me/5575920014219?text=Ol%C3%A1%2C%20Fabiana!%20Meu%20filho(a)%20est%C3%A1%20com%20dificuldades%20escolares%20e%20gostaria%20de%20orienta%C3%A7%C3%A3o."
+                           target="_blank"
+                           class="w-full sm:w-auto px-6 py-3.5 bg-yellow-400 hover:bg-yellow-300 text-purple-950 font-black rounded-full text-sm text-center shadow-lg transition-transform hover:scale-105 flex items-center justify-center gap-2">
+                            <i class="fa-brands fa-whatsapp text-lg"></i>
+                            <span>Pedir Orientação Gratuita</span>
+                        </a>
+                        <span class="text-xs text-purple-200 mt-2">Atendimento confidencial e acolhedor</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- SEÇÃO DE ESPECIALIDADES CLÍNICAS (CARDS RICOS COM FOTOS DE CRIANÇAS E CORES DA LOGO) -->
+    <section id="especialidades" class="py-20 bg-brand-slateSoft relative">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            
+            <!-- Cabeçalho da Seção -->
+            <div class="text-center max-w-3xl mx-auto space-y-4 mb-16">
+                <div class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-purple-100 text-brand-purple text-xs font-black uppercase tracking-wider">
+                    <i class="fa-solid fa-shapes"></i>
+                    <span>Áreas de Atuação Especializada</span>
+                </div>
+                <h2 class="text-3xl sm:text-4xl lg:text-5xl font-extrabold font-display text-gray-900 leading-tight">
+                    Intervenção Especializada para 
+                    <span class="text-brand-purple">Superar Desafios</span> e Construir Autonomia
+                </h2>
+                <p class="text-base sm:text-lg text-gray-600 font-medium leading-relaxed">
+                    A Neuropsicopedagogia une os conhecimentos da <strong>Neurociência</strong>, da <strong>Psicologia Cognitiva</strong> e da <strong>Pedagogia</strong> para mapear como o cérebro aprende e criar estratégias para vencer as barreiras do desenvolvimento.
+                </p>
+            </div>
+
+            <!-- Grid de Especialidades Principais (com fotos e paleta da marca) -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-8">
+                
+                <!-- CARD 1: AUTISMO (TEA) - Azul/Ciano & Amarelo da Logo -->
+                <div class="bg-white rounded-3xl overflow-hidden shadow-sm hover:shadow-card-hover border-2 border-cyan-100 hover:border-brand-cyan transition-all duration-300 flex flex-col group">
+                    <div class="relative h-56 overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1502086223501-7ea6ecd79368?q=80&w=800&auto=format&fit=crop" 
+                             alt="Criança com Autismo em ambiente acolhedor e estimulante" 
+                             class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                        <div class="absolute top-4 left-4 bg-white/95 backdrop-blur-md px-3 py-1 rounded-full text-xs font-black text-brand-blue flex items-center gap-1.5 shadow-sm">
+                            <span class="w-2 h-2 rounded-full bg-brand-cyan"></span>
+                            <span>Especialidade Central</span>
+                        </div>
+                        <div class="absolute bottom-3 right-3 bg-brand-cyan text-white p-2 rounded-xl text-lg shadow-md">
+                            <i class="fa-solid fa-puzzle-piece"></i>
+                        </div>
+                    </div>
+                    <div class="p-6 sm:p-7 flex-1 flex flex-col justify-between space-y-4">
+                        <div class="space-y-3">
+                            <h3 class="text-xl sm:text-2xl font-black text-gray-900 group-hover:text-brand-cyan transition-colors">
+                                Autismo (TEA)
+                            </h3>
+                            <p class="text-xs uppercase font-extrabold tracking-wide text-brand-blue">Transtorno do Espectro Autista</p>
+                            <p class="text-gray-600 text-sm leading-relaxed">
+                                Intervenção focada em comunicação funcional, interação social, flexibilidade cognitiva, autorregulação sensorial e rotinas estruturadas. Respeitamos os hiperfocos da criança como canais poderosos de aprendizagem.
+                            </p>
+                            <ul class="text-xs space-y-2 text-gray-700 font-semibold pt-1">
+                                <li class="flex items-center gap-2">
+                                    <i class="fa-solid fa-circle-check text-brand-cyan text-sm"></i>
+                                    <span>Comunicação e habilidades sociais adaptativas</span>
+                                </li>
+                                <li class="flex items-center gap-2">
+                                    <i class="fa-solid fa-circle-check text-brand-cyan text-sm"></i>
+                                    <span>Manejo de sobrecargas sensoriais e rotinas visuais</span>
+                                </li>
+                                <li class="flex items-center gap-2">
+                                    <i class="fa-solid fa-circle-check text-brand-cyan text-sm"></i>
+                                    <span>Ponte com a escola para adaptação curricular (PEI)</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <a href="https://wa.me/5575920014219?text=Ol%C3%A1%2C%20Fabiana!%20Gostaria%20de%20saber%20mais%20sobre%20o%20atendimento%20para%20Autismo%20(TEA)." 
+                           target="_blank"
+                           class="inline-flex items-center justify-center gap-2 text-xs font-black text-brand-blue hover:text-brand-cyan bg-cyan-50 hover:bg-cyan-100 py-2.5 px-4 rounded-xl transition-colors">
+                            <span>Saber mais sobre atendimento TEA</span>
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- CARD 2: TDAH - Amarelo/Dourado & Verde da Logo -->
+                <div class="bg-white rounded-3xl overflow-hidden shadow-sm hover:shadow-card-hover border-2 border-amber-100 hover:border-brand-yellow transition-all duration-300 flex flex-col group">
+                    <div class="relative h-56 overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1544717305-2782549b5136?q=80&w=800&auto=format&fit=crop" 
+                             alt="Criança concentrando-se com suporte e carinho em suas tarefas" 
+                             class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                        <div class="absolute top-4 left-4 bg-white/95 backdrop-blur-md px-3 py-1 rounded-full text-xs font-black text-amber-800 flex items-center gap-1.5 shadow-sm">
+                            <span class="w-2 h-2 rounded-full bg-brand-yellow"></span>
+                            <span>Foco & Funções Executivas</span>
+                        </div>
+                        <div class="absolute bottom-3 right-3 bg-brand-yellow text-white p-2 rounded-xl text-lg shadow-md">
+                            <i class="fa-solid fa-bolt-lightning"></i>
+                        </div>
+                    </div>
+                    <div class="p-6 sm:p-7 flex-1 flex flex-col justify-between space-y-4">
+                        <div class="space-y-3">
+                            <h3 class="text-xl sm:text-2xl font-black text-gray-900 group-hover:text-amber-600 transition-colors">
+                                TDAH & Desatenção
+                            </h3>
+                            <p class="text-xs uppercase font-extrabold tracking-wide text-amber-700">Déficit de Atenção e Hiperatividade</p>
+                            <p class="text-gray-600 text-sm leading-relaxed">
+                                Treinamento cognitivo de memória de trabalho, controle inibitório, foco sustentado e organização de tempo. Estratégias práticas para transformar a inquietação motora e o esquecimento em produtividade e bem-estar.
+                            </p>
+                            <ul class="text-xs space-y-2 text-gray-700 font-semibold pt-1">
+                                <li class="flex items-center gap-2">
+                                    <i class="fa-solid fa-circle-check text-brand-yellow text-sm"></i>
+                                    <span>Estratégias para fazer deveres sem choro ou enrolação</span>
+                                </li>
+                                <li class="flex items-center gap-2">
+                                    <i class="fa-solid fa-circle-check text-brand-yellow text-sm"></i>
+                                    <span>Desenvolvimento de foco sustentado e autorregulação</span>
+                                </li>
+                                <li class="flex items-center gap-2">
+                                    <i class="fa-solid fa-circle-check text-brand-yellow text-sm"></i>
+                                    <span>Orientação familiar sobre rotinas previsíveis em casa</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <a href="https://wa.me/5575920014219?text=Ol%C3%A1%2C%20Fabiana!%20Quero%20entender%20como%20funciona%20o%20acompanhamento%20para%20TDAH." 
+                           target="_blank"
+                           class="inline-flex items-center justify-center gap-2 text-xs font-black text-amber-800 hover:text-amber-900 bg-amber-50 hover:bg-amber-100 py-2.5 px-4 rounded-xl transition-colors">
+                            <span>Saber mais sobre intervenção em TDAH</span>
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- CARD 3: ALFABETIZAÇÃO & APRENDIZAGEM - Roxo da Logo -->
+                <div class="bg-white rounded-3xl overflow-hidden shadow-sm hover:shadow-card-hover border-2 border-purple-100 hover:border-brand-purple transition-all duration-300 flex flex-col group">
+                    <div class="relative h-56 overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1503454537195-1dcabb73ffb9?q=80&w=800&auto=format&fit=crop" 
+                             alt="Menina descobrindo a leitura e a escrita com entusiasmo" 
+                             class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                        <div class="absolute top-4 left-4 bg-white/95 backdrop-blur-md px-3 py-1 rounded-full text-xs font-black text-brand-purple flex items-center gap-1.5 shadow-sm">
+                            <span class="w-2 h-2 rounded-full bg-brand-purple"></span>
+                            <span>Alfabetização & Leitura</span>
+                        </div>
+                        <div class="absolute bottom-3 right-3 bg-brand-purple text-white p-2 rounded-xl text-lg shadow-md">
+                            <i class="fa-solid fa-book-open"></i>
+                        </div>
+                    </div>
+                    <div class="p-6 sm:p-7 flex-1 flex flex-col justify-between space-y-4">
+                        <div class="space-y-3">
+                            <h3 class="text-xl sm:text-2xl font-black text-gray-900 group-hover:text-brand-purple transition-colors">
+                                Alfabetização & Dificuldades
+                            </h3>
+                            <p class="text-xs uppercase font-extrabold tracking-wide text-brand-purple">Desde as Primeiras Letras</p>
+                            <p class="text-gray-600 text-sm leading-relaxed">
+                                Método multissensorial estruturado para destravar a leitura e a escrita. Atuamos na prevenção e reabilitação de Dislexia, Disortografia, Discalculia e bloqueios emocionais decorrentes do medo de errar na escola.
+                            </p>
+                            <ul class="text-xs space-y-2 text-gray-700 font-semibold pt-1">
+                                <li class="flex items-center gap-2">
+                                    <i class="fa-solid fa-circle-check text-brand-purple text-sm"></i>
+                                    <span>Consciência fonológica e associação som-letra</span>
+                                </li>
+                                <li class="flex items-center gap-2">
+                                    <i class="fa-solid fa-circle-check text-brand-purple text-sm"></i>
+                                    <span>Compreensão leitora e fluência sem ansiedade</span>
+                                </li>
+                                <li class="flex items-center gap-2">
+                                    <i class="fa-solid fa-circle-check text-brand-purple text-sm"></i>
+                                    <span>Raciocínio lógico-matemático e números</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <a href="https://wa.me/5575920014219?text=Ol%C3%A1%2C%20Fabiana!%20Meu%20filho(a)%20est%C3%A1%20com%20dificuldades%20na%20alfabetiza%C3%A7%C3%A3o.%20Como%20funciona%20o%20apoio%3F" 
+                           target="_blank"
+                           class="inline-flex items-center justify-center gap-2 text-xs font-black text-brand-purple hover:text-brand-purpleDark bg-purple-50 hover:bg-purple-100 py-2.5 px-4 rounded-xl transition-colors">
+                            <span>Saber mais sobre Alfabetização</span>
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- CARD 4: COMORBIDADES GLOBAIS DO DESENVOLVIMENTO - Magenta da Logo -->
+                <div class="bg-white rounded-3xl overflow-hidden shadow-sm hover:shadow-card-hover border-2 border-pink-100 hover:border-brand-magenta transition-all duration-300 flex flex-col group">
+                    <div class="relative h-56 overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1516627145497-ae6968895b74?q=80&w=800&auto=format&fit=crop" 
+                             alt="Criança recebendo estímulo afetivo e suporte integral" 
+                             class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                        <div class="absolute top-4 left-4 bg-white/95 backdrop-blur-md px-3 py-1 rounded-full text-xs font-black text-brand-magenta flex items-center gap-1.5 shadow-sm">
+                            <span class="w-2 h-2 rounded-full bg-brand-magenta"></span>
+                            <span>Visão Global 360°</span>
+                        </div>
+                        <div class="absolute bottom-3 right-3 bg-brand-magenta text-white p-2 rounded-xl text-lg shadow-md">
+                            <i class="fa-solid fa-brain"></i>
+                        </div>
+                    </div>
+                    <div class="p-6 sm:p-7 flex-1 flex flex-col justify-between space-y-4">
+                        <div class="space-y-3">
+                            <h3 class="text-xl sm:text-2xl font-black text-gray-900 group-hover:text-brand-magenta transition-colors">
+                                Comorbidades do Desenvolvimento
+                            </h3>
+                            <p class="text-xs uppercase font-extrabold tracking-wide text-brand-magenta">Abordagem Integrada</p>
+                            <p class="text-gray-600 text-sm leading-relaxed">
+                                Quando várias condições se sobrepõem: Transtorno Opositor Desafiador (TOD), Ansiedade Escolar, Atraso Global do Desenvolvimento (AGD) e alterações sensório-motoras. Acolhemos a pessoa em sua totalidade.
+                            </p>
+                            <ul class="text-xs space-y-2 text-gray-700 font-semibold pt-1">
+                                <li class="flex items-center gap-2">
+                                    <i class="fa-solid fa-circle-check text-brand-magenta text-sm"></i>
+                                    <span>Manejo de oposição, rigidez e tolerância à frustração</span>
+                                </li>
+                                <li class="flex items-center gap-2">
+                                    <i class="fa-solid fa-circle-check text-brand-magenta text-sm"></i>
+                                    <span>Diminuição da ansiedade e estresse em avaliações</span>
+                                </li>
+                                <li class="flex items-center gap-2">
+                                    <i class="fa-solid fa-circle-check text-brand-magenta text-sm"></i>
+                                    <span>Alinhamento com Neuropediatra e Terapeutas</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <a href="https://wa.me/5575920014219?text=Ol%C3%A1%2C%20Fabiana!%20Gostaria%20de%20conversar%20sobre%20comorbidades%20do%20desenvolvimento." 
+                           target="_blank"
+                           class="inline-flex items-center justify-center gap-2 text-xs font-black text-brand-magenta hover:text-pink-700 bg-pink-50 hover:bg-pink-100 py-2.5 px-4 rounded-xl transition-colors">
+                            <span>Entender casos com comorbidades</span>
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- CARD 5: JOVENS E ADOLESCENTES - Verde Lima da Logo -->
+                <div class="bg-white rounded-3xl overflow-hidden shadow-sm hover:shadow-card-hover border-2 border-green-100 hover:border-brand-green transition-all duration-300 flex flex-col group">
+                    <div class="relative h-56 overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1529156069898-49953e39b3ac?q=80&w=800&auto=format&fit=crop" 
+                             alt="Jovens e adolescentes encontrando motivação e estratégias de estudo" 
+                             class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                        <div class="absolute top-4 left-4 bg-white/95 backdrop-blur-md px-3 py-1 rounded-full text-xs font-black text-green-800 flex items-center gap-1.5 shadow-sm">
+                            <span class="w-2 h-2 rounded-full bg-brand-green"></span>
+                            <span>Adolescência & Vestibulares</span>
+                        </div>
+                        <div class="absolute bottom-3 right-3 bg-brand-green text-white p-2 rounded-xl text-lg shadow-md">
+                            <i class="fa-solid fa-user-graduate"></i>
+                        </div>
+                    </div>
+                    <div class="p-6 sm:p-7 flex-1 flex flex-col justify-between space-y-4">
+                        <div class="space-y-3">
+                            <h3 class="text-xl sm:text-2xl font-black text-gray-900 group-hover:text-green-700 transition-colors">
+                                Jovens & Adolescentes
+                            </h3>
+                            <p class="text-xs uppercase font-extrabold tracking-wide text-green-700">Autonomia & Métodos de Estudo</p>
+                            <p class="text-gray-600 text-sm leading-relaxed">
+                                Transição para o Ensino Fundamental II, Médio e fase pré-vestibular. Fortalecimento da autoestima, gerenciamento de procrastinação, técnicas ativas de estudo e organização mental para jovens neurodivergentes.
+                            </p>
+                            <ul class="text-xs space-y-2 text-gray-700 font-semibold pt-1">
+                                <li class="flex items-center gap-2">
+                                    <i class="fa-solid fa-circle-check text-brand-green text-sm"></i>
+                                    <span>Estratégias contra a procrastinação e uso de telas</span>
+                                </li>
+                                <li class="flex items-center gap-2">
+                                    <i class="fa-solid fa-circle-check text-brand-green text-sm"></i>
+                                    <span>Técnicas de estudo e memorização para vestibulares</span>
+                                </li>
+                                <li class="flex items-center gap-2">
+                                    <i class="fa-solid fa-circle-check text-brand-green text-sm"></i>
+                                    <span>Resgate da autoconfiança e segurança pessoal</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <a href="https://wa.me/5575920014219?text=Ol%C3%A1%2C%20Fabiana!%20Gostaria%20de%20informa%C3%A7%C3%B5es%20para%20atendimento%20de%20jovem%20ou%20adolescente." 
+                           target="_blank"
+                           class="inline-flex items-center justify-center gap-2 text-xs font-black text-green-800 hover:text-green-900 bg-green-50 hover:bg-green-100 py-2.5 px-4 rounded-xl transition-colors">
+                            <span>Consultar apoio para adolescentes</span>
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- CARD 6: ADULTOS (DIAGNÓSTICO TARDIO & CARREIRA) - Roxo Profundo & Azul -->
+                <div class="bg-white rounded-3xl overflow-hidden shadow-sm hover:shadow-card-hover border-2 border-purple-100 hover:border-brand-purpleDark transition-all duration-300 flex flex-col group">
+                    <div class="relative h-56 overflow-hidden">
+                        <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?q=80&w=800&auto=format&fit=crop" 
+                             alt="Adulto em processo de foco e reabilitação cognitiva" 
+                             class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500">
+                        <div class="absolute top-4 left-4 bg-white/95 backdrop-blur-md px-3 py-1 rounded-full text-xs font-black text-brand-purpleDark flex items-center gap-1.5 shadow-sm">
+                            <span class="w-2 h-2 rounded-full bg-brand-purpleDark"></span>
+                            <span>Diagnóstico Tardio & Carreira</span>
+                        </div>
+                        <div class="absolute bottom-3 right-3 bg-brand-purpleDark text-white p-2 rounded-xl text-lg shadow-md">
+                            <i class="fa-solid fa-briefcase"></i>
+                        </div>
+                    </div>
+                    <div class="p-6 sm:p-7 flex-1 flex flex-col justify-between space-y-4">
+                        <div class="space-y-3">
+                            <h3 class="text-xl sm:text-2xl font-black text-gray-900 group-hover:text-brand-purpleDark transition-colors">
+                                Adultos & Universitários
+                            </h3>
+                            <p class="text-xs uppercase font-extrabold tracking-wide text-brand-purpleDark">Reabilitação Cognitiva</p>
+                            <p class="text-gray-600 text-sm leading-relaxed">
+                                Muitos adultos passam a vida sentindo-se sobrecarregados sem saber que possuem TDAH ou traços de TEA. Acompanhamento para organização mental, planejamento profissional, conclusão de faculdade e qualidade de vida.
+                            </p>
+                            <ul class="text-xs space-y-2 text-gray-700 font-semibold pt-1">
+                                <li class="flex items-center gap-2">
+                                    <i class="fa-solid fa-circle-check text-brand-purpleDark text-sm"></i>
+                                    <span>Compreensão do funcionamento cerebral na vida adulta</span>
+                                </li>
+                                <li class="flex items-center gap-2">
+                                    <i class="fa-solid fa-circle-check text-brand-purpleDark text-sm"></i>
+                                    <span>Organização da rotina de trabalho e metas acadêmicas</span>
+                                </li>
+                                <li class="flex items-center gap-2">
+                                    <i class="fa-solid fa-circle-check text-brand-purpleDark text-sm"></i>
+                                    <span>Alívio da sobrecarga mental e síndrome do impostor</span>
+                                </li>
+                            </ul>
+                        </div>
+                        <a href="https://wa.me/5575920014219?text=Ol%C3%A1%2C%20Fabiana!%20Sou%20adulto(a)%20e%20gostaria%20de%20acompanhamento%20para%20foco%2FTDAH%20e%20organiza%C3%A7%C3%A3o." 
+                           target="_blank"
+                           class="inline-flex items-center justify-center gap-2 text-xs font-black text-brand-purpleDark hover:text-black bg-purple-50 hover:bg-purple-100 py-2.5 px-4 rounded-xl transition-colors">
+                            <span>Saber mais para fase adulta</span>
+                            <i class="fa-solid fa-arrow-right"></i>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- SEÇÃO: PARA QUEM É O ATENDIMENTO? (PÚBLICO-ALVO DETALHADO) -->
+    <section id="publico" class="py-20 bg-white relative overflow-hidden">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            
+            <div class="text-center max-w-3xl mx-auto space-y-4 mb-16">
+                <span class="px-4 py-1.5 rounded-full bg-brand-yellow/20 text-yellow-800 text-xs font-black uppercase tracking-wider">
+                    Acolhimento em Todas as Fases
+                </span>
+                <h2 class="text-3xl sm:text-4xl font-extrabold font-display text-gray-900 leading-tight">
+                    Para Quem É a <span class="text-brand-purple">Neuropsicopedagogia</span>?
+                </h2>
+                <p class="text-gray-600 text-base sm:text-lg">
+                    Não importa em qual estágio de desenvolvimento você ou seu filho estejam: quando identificamos o ponto de bloqueio, o crescimento acontece com leveza.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                
+                <!-- CARD PÚBLICO 1: CRIANÇAS -->
+                <div class="bg-gradient-to-b from-purple-50/70 to-white p-8 rounded-3xl border border-purple-100 shadow-sm relative group hover:shadow-lg transition-all duration-300">
+                    <div class="w-14 h-14 rounded-2xl bg-brand-purple text-white flex items-center justify-center text-2xl mb-6 shadow-md shadow-purple-500/20 group-hover:scale-110 transition-transform">
+                        <i class="fa-solid fa-shapes"></i>
+                    </div>
+                    <h3 class="text-2xl font-black text-gray-900 mb-3">Crianças</h3>
+                    <p class="text-xs font-black uppercase tracking-wider text-brand-purple mb-4">Primeira Infância & Fundamental</p>
+                    <ul class="text-sm space-y-3 text-gray-600 font-medium">
+                        <li class="flex items-start gap-2.5">
+                            <i class="fa-solid fa-check text-brand-purple mt-1 flex-shrink-0"></i>
+                            <span>Dificuldade para reconhecer letras, juntar sílabas ou ler</span>
+                        </li>
+                        <li class="flex items-start gap-2.5">
+                            <i class="fa-solid fa-check text-brand-purple mt-1 flex-shrink-0"></i>
+                            <span>Queixas frequentes de professores sobre desatenção ou agitação</span>
+                        </li>
+                        <li class="flex items-start gap-2.5">
+                            <i class="fa-solid fa-check text-brand-purple mt-1 flex-shrink-0"></i>
+                            <span>Dificuldade de socialização com outras crianças no recreio</span>
+                        </li>
+                        <li class="flex items-start gap-2.5">
+                            <i class="fa-solid fa-check text-brand-purple mt-1 flex-shrink-0"></i>
+                            <span>Choro, frustração extrema ou recusa para ir à escola</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- CARD PÚBLICO 2: JOVENS -->
+                <div class="bg-gradient-to-b from-amber-50/70 to-white p-8 rounded-3xl border border-amber-100 shadow-sm relative group hover:shadow-lg transition-all duration-300">
+                    <div class="w-14 h-14 rounded-2xl bg-brand-yellow text-white flex items-center justify-center text-2xl mb-6 shadow-md shadow-amber-500/20 group-hover:scale-110 transition-transform">
+                        <i class="fa-solid fa-graduation-cap"></i>
+                    </div>
+                    <h3 class="text-2xl font-black text-gray-900 mb-3">Jovens</h3>
+                    <p class="text-xs font-black uppercase tracking-wider text-amber-700 mb-4">Fundamental II, Médio & Pré-Vestibular</p>
+                    <ul class="text-sm space-y-3 text-gray-600 font-medium">
+                        <li class="flex items-start gap-2.5">
+                            <i class="fa-solid fa-check text-brand-yellow mt-1 flex-shrink-0"></i>
+                            <span>Procrastinação crônica e incapacidade de cumprir prazos escolares</span>
+                        </li>
+                        <li class="flex items-start gap-2.5">
+                            <i class="fa-solid fa-check text-brand-yellow mt-1 flex-shrink-0"></i>
+                            <span>Estuda horas seguidas, mas na hora da prova "dá um branco"</span>
+                        </li>
+                        <li class="flex items-start gap-2.5">
+                            <i class="fa-solid fa-check text-brand-yellow mt-1 flex-shrink-0"></i>
+                            <span>Desorganização com cadernos, livros e planejamento de rotina</span>
+                        </li>
+                        <li class="flex items-start gap-2.5">
+                            <i class="fa-solid fa-check text-brand-yellow mt-1 flex-shrink-0"></i>
+                            <span>Sentimento de desânimo e sensação de "não ser bom o suficiente"</span>
+                        </li>
+                    </ul>
+                </div>
+
+                <!-- CARD PÚBLICO 3: ADULTOS & PAIS -->
+                <div class="bg-gradient-to-b from-cyan-50/70 to-white p-8 rounded-3xl border border-cyan-100 shadow-sm relative group hover:shadow-lg transition-all duration-300">
+                    <div class="w-14 h-14 rounded-2xl bg-brand-cyan text-white flex items-center justify-center text-2xl mb-6 shadow-md shadow-cyan-500/20 group-hover:scale-110 transition-transform">
+                        <i class="fa-solid fa-users"></i>
+                    </div>
+                    <h3 class="text-2xl font-black text-gray-900 mb-3">Adultos & Pais</h3>
+                    <p class="text-xs font-black uppercase tracking-wider text-brand-blue mb-4">Vida Adulta, Carreira & Orientação Parental</p>
+                    <ul class="text-sm space-y-3 text-gray-600 font-medium">
+                        <li class="flex items-start gap-2.5">
+                            <i class="fa-solid fa-check text-brand-cyan mt-1 flex-shrink-0"></i>
+                            <span>Suspeita de TDAH ou Autismo não diagnosticados na infância</span>
+                        </li>
+                        <li class="flex items-start gap-2.5">
+                            <i class="fa-solid fa-check text-brand-cyan mt-1 flex-shrink-0"></i>
+                            <span>Dificuldades de gerir tempo, compromissos e foco no trabalho</span>
+                        </li>
+                        <li class="flex items-start gap-2.5">
+                            <i class="fa-solid fa-check text-brand-cyan mt-1 flex-shrink-0"></i>
+                            <span>Pais perdidos sobre como conduzir crises e regras em casa</span>
+                        </li>
+                        <li class="flex items-start gap-2.5">
+                            <i class="fa-solid fa-check text-brand-cyan mt-1 flex-shrink-0"></i>
+                            <span>Necessidade de estratégias práticas de adaptação na rotina</span>
+                        </li>
+                    </ul>
+                </div>
+
+            </div>
+
+            <!-- Chamada de Ação Rápida -->
+            <div class="mt-12 text-center">
+                <a href="https://wa.me/5575920014219?text=Ol%C3%A1%2C%20Fabiana!%20Gostaria%20de%20conversar%20sobre%20a%20situa%C3%A7%C3%A3o%20da%20minha%20fam%C3%ADlia." 
+                   target="_blank"
+                   class="inline-flex items-center gap-3 bg-brand-purple hover:bg-brand-purpleDark text-white px-8 py-4 rounded-full font-extrabold text-sm sm:text-base shadow-soft-colored hover:scale-105 transition-all">
+                    <i class="fa-brands fa-whatsapp text-xl text-green-300"></i>
+                    <span>Tirar Dúvidas com Fabiana no WhatsApp: (75) 92001-4219</span>
+                </a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- FERRAMENTA INTERATIVA DE TRIAGEM RÁPIDA (CHECKLIST INTELIGENTE PARA VENDAS E LEADS) -->
+    <section id="triagem" class="py-20 bg-gradient-to-br from-purple-900 via-brand-purple to-indigo-950 text-white relative overflow-hidden">
+        
+        <!-- Elementos de Iluminação de Fundo -->
+        <div class="absolute -top-24 -left-24 w-96 h-96 bg-brand-cyan/20 rounded-full blur-3xl pointer-events-none"></div>
+        <div class="absolute -bottom-24 -right-24 w-96 h-96 bg-brand-yellow/20 rounded-full blur-3xl pointer-events-none"></div>
+
+        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
+            
+            <div class="text-center space-y-4 mb-12">
+                <span class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-yellow-400 text-purple-950 text-xs font-black uppercase tracking-wider shadow-sm">
+                    <i class="fa-solid fa-clipboard-check"></i>
+                    <span>Autoavaliação Preliminar em 1 Minuto</span>
+                </span>
+                <h2 class="text-3xl sm:text-4xl md:text-5xl font-extrabold font-display leading-tight">
+                    Seu filho ou você precisam de uma <span class="text-yellow-300">Avaliação Neuropsicopedagógica</span>?
+                </h2>
+                <p class="text-purple-200 text-sm sm:text-base max-w-2xl mx-auto">
+                    Selecione abaixo os comportamentos ou sinais que você tem observado no dia a dia. Nossa ferramenta analisará os pontos e preparará um resumo para enviar diretamente à Fabiana Costa.
+                </p>
+            </div>
+
+            <!-- Caixa Interativa do Quiz/Checklist -->
+            <div class="bg-white/10 backdrop-blur-xl border border-white/20 rounded-3xl p-6 sm:p-10 shadow-2xl">
+                
+                <p class="text-sm font-extrabold uppercase tracking-wider text-yellow-300 mb-6 flex items-center gap-2">
+                    <i class="fa-solid fa-list-check"></i>
+                    <span>Marque os itens que se aplicam à sua realidade:</span>
+                </p>
+
+                <!-- Grid de Checkboxes -->
+                <div class="grid grid-cols-1 md:grid-cols-2 gap-4" id="quiz-options">
+                    
+                    <label class="quiz-item flex items-start gap-3.5 p-4 rounded-2xl bg-white/5 hover:bg-white/15 border border-white/10 hover:border-yellow-300/50 cursor-pointer transition-all duration-200">
+                        <input type="checkbox" value="Dificuldade persistente para aprender letras, sons ou juntar sílabas na alfabetização" class="quiz-checkbox mt-1 w-5 h-5 accent-yellow-400 rounded cursor-pointer">
+                        <span class="text-sm font-semibold text-white/90 leading-snug">
+                            Dificuldade persistente para aprender letras, sons ou juntar sílabas na fase de alfabetização.
+                        </span>
+                    </label>
+
+                    <label class="quiz-item flex items-start gap-3.5 p-4 rounded-2xl bg-white/5 hover:bg-white/15 border border-white/10 hover:border-yellow-300/50 cursor-pointer transition-all duration-200">
+                        <input type="checkbox" value="Desatenção acentuada, parece estar no mundo da lua ou não ouve quando chamado" class="quiz-checkbox mt-1 w-5 h-5 accent-yellow-400 rounded cursor-pointer">
+                        <span class="text-sm font-semibold text-white/90 leading-snug">
+                            Desatenção acentuada, parece estar sempre "no mundo da lua" ou perde pertences com frequência.
+                        </span>
+                    </label>
+
+                    <label class="quiz-item flex items-start gap-3.5 p-4 rounded-2xl bg-white/5 hover:bg-white/15 border border-white/10 hover:border-yellow-300/50 cursor-pointer transition-all duration-200">
+                        <input type="checkbox" value="Inquietação constante, não consegue parar sentado ou age com muita impulsividade" class="quiz-checkbox mt-1 w-5 h-5 accent-yellow-400 rounded cursor-pointer">
+                        <span class="text-sm font-semibold text-white/90 leading-snug">
+                            Inquietação motora extrema, parece estar "ligado no motor" e age por impulso antes de pensar.
+                        </span>
+                    </label>
+
+                    <label class="quiz-item flex items-start gap-3.5 p-4 rounded-2xl bg-white/5 hover:bg-white/15 border border-white/10 hover:border-yellow-300/50 cursor-pointer transition-all duration-200">
+                        <input type="checkbox" value="Crises frequentes de choro, raiva ou estresse diante de deveres escolares e provas" class="quiz-checkbox mt-1 w-5 h-5 accent-yellow-400 rounded cursor-pointer">
+                        <span class="text-sm font-semibold text-white/90 leading-snug">
+                            Crises de choro, recusa ou sofrimento intenso na hora de fazer lições de casa e atividades escolares.
+                        </span>
+                    </label>
+
+                    <label class="quiz-item flex items-start gap-3.5 p-4 rounded-2xl bg-white/5 hover:bg-white/15 border border-white/10 hover:border-yellow-300/50 cursor-pointer transition-all duration-200">
+                        <input type="checkbox" value="Dificuldades de socialização, rigidez com mudanças de rotina ou sensibilidade a barulhos (sinais TEA)" class="quiz-checkbox mt-1 w-5 h-5 accent-yellow-400 rounded cursor-pointer">
+                        <span class="text-sm font-semibold text-white/90 leading-snug">
+                            Dificuldade para interagir, apego excessivo a rotinas ou alta sensibilidade a barulhos e texturas.
+                        </span>
+                    </label>
+
+                    <label class="quiz-item flex items-start gap-3.5 p-4 rounded-2xl bg-white/5 hover:bg-white/15 border border-white/10 hover:border-yellow-300/50 cursor-pointer transition-all duration-200">
+                        <input type="checkbox" value="A escola chamou os pais alertando sobre defasagem de aprendizagem ou comportamento" class="quiz-checkbox mt-1 w-5 h-5 accent-yellow-400 rounded cursor-pointer">
+                        <span class="text-sm font-semibold text-white/90 leading-snug">
+                            A escola solicitou reunião ou sugeriu investigação profissional para entender o rendimento do aluno.
+                        </span>
+                    </label>
+
+                    <label class="quiz-item flex items-start gap-3.5 p-4 rounded-2xl bg-white/5 hover:bg-white/15 border border-white/10 hover:border-yellow-300/50 cursor-pointer transition-all duration-200">
+                        <input type="checkbox" value="Dificuldade extrema em organizar materiais escolares, horários e seguir instruções com mais de um passo" class="quiz-checkbox mt-1 w-5 h-5 accent-yellow-400 rounded cursor-pointer">
+                        <span class="text-sm font-semibold text-white/90 leading-snug">
+                            Dificuldade de seguir instruções múltiplas e esquecimento de conteúdos aprendidos no dia anterior.
+                        </span>
+                    </label>
+
+                    <label class="quiz-item flex items-start gap-3.5 p-4 rounded-2xl bg-white/5 hover:bg-white/15 border border-white/10 hover:border-yellow-300/50 cursor-pointer transition-all duration-200">
+                        <input type="checkbox" value="Suspeita de TDAH/Autismo na vida adulta com problemas para focar no trabalho ou faculdade" class="quiz-checkbox mt-1 w-5 h-5 accent-yellow-400 rounded cursor-pointer">
+                        <span class="text-sm font-semibold text-white/90 leading-snug">
+                            Jovem ou Adulto sentindo sobrecarga, procrastinação intensa ou suspeita de diagnóstico tardio.
+                        </span>
+                    </label>
+
+                </div>
+
+                <!-- Painel de Resultado Dinâmico -->
+                <div id="quiz-result" class="mt-8 pt-8 border-t border-white/15 text-center">
+                    <div class="inline-block bg-white/15 px-4 py-2 rounded-full text-xs font-bold text-purple-200 mb-3">
+                        <span id="selected-count">0</span> de 8 sinais selecionados
+                    </div>
+                    
+                    <h3 id="result-title" class="text-xl sm:text-2xl font-extrabold text-white mb-2">
+                        Selecione as opções acima para ver a orientação recomendada
+                    </h3>
+                    <p id="result-desc" class="text-sm text-purple-200 max-w-xl mx-auto mb-6">
+                        Identificar esses sinais precocemente é o ato de amor e cuidado mais importante para garantir um futuro de autonomia.
+                    </p>
+
+                    <!-- Botão de Envio WhatsApp -->
+                    <button id="send-quiz-btn" onclick="sendQuizToWhatsApp()" class="w-full sm:w-auto px-8 py-4 bg-gradient-to-r from-yellow-400 to-amber-500 hover:from-yellow-300 hover:to-amber-400 text-purple-950 font-black rounded-full text-base shadow-lg shadow-yellow-500/30 transition-all transform hover:scale-105 inline-flex items-center justify-center gap-3">
+                        <i class="fa-brands fa-whatsapp text-2xl"></i>
+                        <span>Enviar Minhas Respostas para Fabiana Costa</span>
+                    </button>
+                    <p class="text-xs text-purple-300 mt-3">
+                        <i class="fa-solid fa-lock"></i> Seus dados são confidenciais. Uma conversa direta abrirá no WhatsApp.
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- METODOLOGIA CLÍNICA: COMO FUNCIONA O ATENDIMENTO PASSO A PASSO -->
+    <section id="metodo" class="py-20 bg-white relative">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            
+            <div class="text-center max-w-3xl mx-auto space-y-4 mb-16">
+                <span class="px-4 py-1.5 rounded-full bg-green-100 text-green-800 text-xs font-black uppercase tracking-wider">
+                    Jornada Segura e Transparente
+                </span>
+                <h2 class="text-3xl sm:text-4xl lg:text-5xl font-extrabold font-display text-gray-900 leading-tight">
+                    Como Funciona o Processo de 
+                    <span class="text-brand-purple">Transformação</span>?
+                </h2>
+                <p class="text-base sm:text-lg text-gray-600 font-medium">
+                    Do primeiro contato ao plano contínuo de intervenção: cada etapa é pensada para acolher a família e potencializar o cérebro do paciente.
+                </p>
+            </div>
+
+            <!-- 4 Passos Estruturados -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6">
+                
+                <!-- PASSO 1 -->
+                <div class="bg-purple-50/50 p-7 rounded-3xl border border-purple-100 hover:border-brand-purple hover:shadow-soft-colored transition-all duration-300 flex flex-col justify-between">
+                    <div>
+                        <div class="w-12 h-12 rounded-2xl bg-brand-purple text-white font-black flex items-center justify-center text-xl mb-5 shadow-sm">
+                            1
+                        </div>
+                        <h3 class="text-xl font-black text-gray-900 mb-2">Anamnese & Acolhimento</h3>
+                        <p class="text-xs font-bold uppercase text-brand-purple mb-3">Escuta Profunda da Família</p>
+                        <p class="text-sm text-gray-600 leading-relaxed">
+                            Conversa inicial detalhada com os pais ou com o próprio adulto para mapear o histórico de desenvolvimento desde a gestação, rotinas, angústias e conquistas.
+                        </p>
+                    </div>
+                    <div class="mt-6 pt-4 border-t border-purple-200/50 text-xs font-bold text-brand-purple flex items-center gap-1.5">
+                        <i class="fa-solid fa-heart"></i>
+                        <span>Zero julgamentos, 100% empatia</span>
+                    </div>
+                </div>
+
+                <!-- PASSO 2 -->
+                <div class="bg-cyan-50/50 p-7 rounded-3xl border border-cyan-100 hover:border-brand-cyan hover:shadow-soft-colored transition-all duration-300 flex flex-col justify-between">
+                    <div>
+                        <div class="w-12 h-12 rounded-2xl bg-brand-cyan text-white font-black flex items-center justify-center text-xl mb-5 shadow-sm">
+                            2
+                        </div>
+                        <h3 class="text-xl font-black text-gray-900 mb-2">Avaliação Clínica</h3>
+                        <p class="text-xs font-bold uppercase text-brand-cyan mb-3">Testes & Atividades Lúdicas</p>
+                        <p class="text-sm text-gray-600 leading-relaxed">
+                            Sessões estruturadas com instrumentos científicos, jogos e observação do comportamento para avaliar memória, atenção, linguagem, raciocínio e funções executivas.
+                        </p>
+                    </div>
+                    <div class="mt-6 pt-4 border-t border-cyan-200/50 text-xs font-bold text-brand-blue flex items-center gap-1.5">
+                        <i class="fa-solid fa-microscope"></i>
+                        <span>Fundamentação neurocientífica</span>
+                    </div>
+                </div>
+
+                <!-- PASSO 3 -->
+                <div class="bg-amber-50/50 p-7 rounded-3xl border border-amber-100 hover:border-brand-yellow hover:shadow-soft-colored transition-all duration-300 flex flex-col justify-between">
+                    <div>
+                        <div class="w-12 h-12 rounded-2xl bg-brand-yellow text-white font-black flex items-center justify-center text-xl mb-5 shadow-sm">
+                            3
+                        </div>
+                        <h3 class="text-xl font-black text-gray-900 mb-2">Devolutiva Clara</h3>
+                        <p class="text-xs font-bold uppercase text-amber-700 mb-3">Relatório Completo & Explicação</p>
+                        <p class="text-sm text-gray-600 leading-relaxed">
+                            Sessão exclusiva com os pais para entrega de relatório detalhado em linguagem clara, sem jargões inacessíveis, além de orientações para a escola e encaminhamentos médicos se necessário.
+                        </p>
+                    </div>
+                    <div class="mt-6 pt-4 border-t border-amber-200/50 text-xs font-bold text-amber-800 flex items-center gap-1.5">
+                        <i class="fa-solid fa-file-signature"></i>
+                        <span>Relatório oficial completo</span>
+                    </div>
+                </div>
+
+                <!-- PASSO 4 -->
+                <div class="bg-green-50/50 p-7 rounded-3xl border border-green-100 hover:border-brand-green hover:shadow-soft-colored transition-all duration-300 flex flex-col justify-between">
+                    <div>
+                        <div class="w-12 h-12 rounded-2xl bg-brand-green text-white font-black flex items-center justify-center text-xl mb-5 shadow-sm">
+                            4
+                        </div>
+                        <h3 class="text-xl font-black text-gray-900 mb-2">Plano de Intervenção</h3>
+                        <p class="text-xs font-bold uppercase text-brand-green mb-3">Estimulação Contínua</p>
+                        <p class="text-sm text-gray-600 leading-relaxed">
+                            Sessões semanais com intervenção personalizada, jogos cognitivos, treino de leitura e habilidades funcionais, acompanhando a evolução e dialogando com a equipe escolar.
+                        </p>
+                    </div>
+                    <div class="mt-6 pt-4 border-t border-green-200/50 text-xs font-bold text-green-800 flex items-center gap-1.5">
+                        <i class="fa-solid fa-chart-line"></i>
+                        <span>Progresso perceptível e contínuo</span>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Banner Informativo da Parceria com a Escola -->
+            <div class="mt-12 bg-gradient-to-r from-purple-50 via-pink-50 to-amber-50 p-6 sm:p-8 rounded-3xl border border-purple-100 flex flex-col md:flex-row items-center justify-between gap-6">
+                <div class="flex items-center gap-4">
+                    <div class="w-14 h-14 rounded-2xl bg-brand-magenta text-white flex items-center justify-center text-2xl flex-shrink-0 shadow-md">
+                        <i class="fa-solid fa-school"></i>
+                    </div>
+                    <div>
+                        <h4 class="text-lg font-black text-gray-900">Diálogo Aberto com a Escola e Professores</h4>
+                        <p class="text-sm text-gray-600">Ajudamos na elaboração e adaptação de estratégias pedagógicas para que o ambiente escolar seja inclusivo e encorajador.</p>
+                    </div>
+                </div>
+                <a href="https://wa.me/5575920014219?text=Ol%C3%A1%2C%20Fabiana!%20Gostaria%20de%20agendar%20a%20avalia%C3%A7%C3%A3o%20neuropsicopedag%C3%B3gica."
+                   target="_blank"
+                   class="px-6 py-3 bg-brand-purple hover:bg-brand-purpleDark text-white text-xs sm:text-sm font-extrabold rounded-full shadow-md flex-shrink-0 transition-all hover:scale-105">
+                    Quero Iniciar a Avaliação
+                </a>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- SEÇÃO SOBRE FABIANA COSTA (AUTORIDADE, CORAÇÃO E CIÊNCIA) -->
+    <section id="sobre" class="py-20 bg-brand-slateSoft relative overflow-hidden">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="grid grid-cols-1 lg:grid-cols-12 gap-12 items-center">
+                
+                <!-- Coluna de Imagem / Identidade Visual da Profissional (5 Colunas) -->
+                <div class="lg:col-span-5 relative">
+                    <div class="relative mx-auto max-w-sm lg:max-w-none">
+                        
+                        <!-- Círculos Coloridos com as Cores da Marca -->
+                        <div class="absolute -top-6 -left-6 w-32 h-32 bg-brand-cyan/20 rounded-full blur-xl"></div>
+                        <div class="absolute -bottom-6 -right-6 w-36 h-36 bg-brand-yellow/30 rounded-full blur-xl"></div>
+                        <div class="absolute top-1/2 -right-4 w-20 h-20 bg-brand-magenta/20 rounded-full blur-lg"></div>
+
+                        <!-- Card Moldura da Logo & Apresentação -->
+                        <div class="bg-white p-6 sm:p-8 rounded-3xl shadow-xl border-4 border-white text-center relative z-10 space-y-6">
+                            
+                            <!-- Logo Vertical em Alta Resolução -->
+                            <div class="flex justify-center">
+                                <img src="assets/images/logo-vertical.png" alt="Logotipo Fabiana Costa Neuropsicopedagoga" class="h-44 sm:h-52 w-auto object-contain">
+                            </div>
+
+                            <!-- Faixa de Destaques -->
+                            <div class="pt-4 border-t border-purple-100 space-y-3">
+                                <div class="inline-block px-3.5 py-1 bg-purple-100 text-brand-purple font-black text-xs uppercase tracking-wider rounded-full">
+                                    Especialista Clínica
+                                </div>
+                                <h3 class="text-2xl font-black text-gray-900">Fabiana Costa</h3>
+                                <p class="text-sm font-bold text-gray-500">Neuropsicopedagoga Clínica & Institucional</p>
+                            </div>
+
+                            <!-- Badges de Competência -->
+                            <div class="grid grid-cols-2 gap-2 text-left text-xs font-bold text-gray-700">
+                                <div class="bg-purple-50 p-2.5 rounded-xl flex items-center gap-2">
+                                    <i class="fa-solid fa-certificate text-brand-purple"></i>
+                                    <span>Pós-Graduada</span>
+                                </div>
+                                <div class="bg-cyan-50 p-2.5 rounded-xl flex items-center gap-2">
+                                    <i class="fa-solid fa-puzzle-piece text-brand-cyan"></i>
+                                    <span>Especialista TEA</span>
+                                </div>
+                                <div class="bg-amber-50 p-2.5 rounded-xl flex items-center gap-2">
+                                    <i class="fa-solid fa-brain text-brand-yellow"></i>
+                                    <span>TDAH & Cognição</span>
+                                </div>
+                                <div class="bg-green-50 p-2.5 rounded-xl flex items-center gap-2">
+                                    <i class="fa-solid fa-book text-brand-green"></i>
+                                    <span>Alfabetizadora</span>
+                                </div>
+                            </div>
+
+                            <!-- Botão WhatsApp Direto -->
+                            <a href="https://wa.me/5575920014219?text=Ol%C3%A1%2C%20Fabiana!%20Gostaria%20de%20conversar%20diretamente%20com%20voc%C3%AA." 
+                               target="_blank"
+                               class="w-full bg-brand-purple hover:bg-brand-purpleDark text-white py-3 rounded-full font-extrabold text-sm flex items-center justify-center gap-2 shadow-md transition-all">
+                                <i class="fa-brands fa-whatsapp text-green-300 text-lg"></i>
+                                <span>Falar Diretamente Comigo</span>
+                            </a>
+
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Coluna de Texto & Manifesto da Profissional (7 Colunas) -->
+                <div class="lg:col-span-7 space-y-6">
+                    <span class="inline-flex items-center gap-2 px-4 py-1.5 rounded-full bg-purple-100 text-brand-purple text-xs font-black uppercase tracking-wider">
+                        <i class="fa-solid fa-user-doctor"></i>
+                        <span>Quem Cuidará do Seu Caso</span>
+                    </span>
+
+                    <h2 class="text-3xl sm:text-4xl lg:text-5xl font-extrabold font-display text-gray-900 leading-tight">
+                        "Nenhuma criança nasce para ser rotulada. Ela nasce para ser 
+                        <span class="text-brand-purple">compreendida</span> e estimulada."
+                    </h2>
+
+                    <div class="space-y-4 text-gray-600 text-base leading-relaxed">
+                        <p>
+                            Olá, sou <strong>Fabiana Costa</strong>. Minha trajetória como <strong>Neuropsicopedagoga</strong> nasceu do desejo profundo de olhar para onde muitos só veem queixas: o potencial latente de cada ser humano.
+                        </p>
+                        <p>
+                            Ao longo da minha prática clínica, acompanho crianças que chegavam ao consultório com diagnósticos pesados, rótulos de 'indisciplinadas' ou com a autoestima totalmente abalada pelas dificuldades na escola. Quando aplicamos os princípios da <strong>Neurociência</strong> através de uma abordagem lúdica e afetuosa, os bloqueios começam a se desfazer.
+                        </p>
+                        <p>
+                            Meu foco é proporcionar às famílias e aos indivíduos com <strong>Autismo (TEA)</strong>, <strong>TDAH</strong>, desafios na <strong>alfabetização</strong> e <strong>comorbidades globais do desenvolvimento</strong> um porto seguro, onde a ciência se traduz em passos práticos para o dia a dia.
+                        </p>
+                    </div>
+
+                    <!-- 3 Pilares do Atendimento -->
+                    <div class="grid grid-cols-1 sm:grid-cols-3 gap-4 pt-2">
+                        <div class="p-4 rounded-2xl bg-white border border-purple-100 shadow-sm text-center sm:text-left">
+                            <div class="w-10 h-10 rounded-xl bg-purple-100 text-brand-purple flex items-center justify-center text-lg mb-2 mx-auto sm:mx-0">
+                                <i class="fa-solid fa-heart"></i>
+                            </div>
+                            <h4 class="font-black text-gray-900 text-sm">Afeto & Escuta</h4>
+                            <p class="text-xs text-gray-500 mt-1">O aprendizado só floresce onde há vínculo de confiança e respeito.</p>
+                        </div>
+
+                        <div class="p-4 rounded-2xl bg-white border border-cyan-100 shadow-sm text-center sm:text-left">
+                            <div class="w-10 h-10 rounded-xl bg-cyan-100 text-brand-cyan flex items-center justify-center text-lg mb-2 mx-auto sm:mx-0">
+                                <i class="fa-solid fa-dna"></i>
+                            </div>
+                            <h4 class="font-black text-gray-900 text-sm">Base Científica</h4>
+                            <p class="text-xs text-gray-500 mt-1">Intervenções comprovadas e fundamentadas pela neurociência.</p>
+                        </div>
+
+                        <div class="p-4 rounded-2xl bg-white border border-amber-100 shadow-sm text-center sm:text-left">
+                            <div class="w-10 h-10 rounded-xl bg-amber-100 text-brand-yellow flex items-center justify-center text-lg mb-2 mx-auto sm:mx-0">
+                                <i class="fa-solid fa-people-roof"></i>
+                            </div>
+                            <h4 class="font-black text-gray-900 text-sm">Paz Familiar</h4>
+                            <p class="text-xs text-gray-500 mt-1">Orientação clara para que a harmonia volte a reinar em casa.</p>
+                        </div>
+                    </div>
+
+                    <!-- Assinatura / Frase -->
+                    <div class="pt-4 flex items-center gap-4">
+                        <img src="assets/images/logo-icon.png" alt="Símbolo Fabiana Costa" class="w-12 h-12 object-contain">
+                        <div>
+                            <div class="font-display font-extrabold text-brand-purple text-lg">Fabiana Costa</div>
+                            <div class="text-xs font-bold text-gray-500">Transformando desafios em conquistas todos os dias.</div>
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- SEÇÃO DE DEPOIMENTOS E PROVA SOCIAL (SALES PAGE CONVERSION) -->
+    <section id="depoimentos" class="py-20 bg-white relative">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            
+            <div class="text-center max-w-3xl mx-auto space-y-4 mb-16">
+                <span class="px-4 py-1.5 rounded-full bg-yellow-100 text-yellow-800 text-xs font-black uppercase tracking-wider">
+                    Histórias Reais de Superação
+                </span>
+                <h2 class="text-3xl sm:text-4xl lg:text-5xl font-extrabold font-display text-gray-900 leading-tight">
+                    O que dizem as famílias que confiaram em 
+                    <span class="text-brand-purple">nosso trabalho</span>
+                </h2>
+                <p class="text-base sm:text-lg text-gray-600 font-medium">
+                    Veja a transformação na vida de crianças, jovens e pais que encontraram um caminho de clareza e esperança.
+                </p>
+            </div>
+
+            <!-- Grid de Depoimentos -->
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                
+                <!-- DEPOIMENTO 1 -->
+                <div class="bg-brand-slateSoft p-8 rounded-3xl border border-purple-100 shadow-sm flex flex-col justify-between relative group hover:border-brand-purple transition-all duration-300">
+                    <div class="space-y-4">
+                        <div class="flex text-amber-400 gap-1 text-sm">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <p class="text-gray-700 text-sm leading-relaxed italic">
+                            "Meu filho de 7 anos chorava toda tarde na hora do dever de casa. A professora dizia que ele não acompanhava os colegas na alfabetização. A Fabiana identificou exatamente onde estava o bloqueio fonológico. Hoje ele lê sozinho os gibis com um orgulho que não cabe no peito! Gratidão eterna!"
+                        </p>
+                    </div>
+                    <div class="mt-6 pt-4 border-t border-purple-100 flex items-center gap-3">
+                        <div class="w-11 h-11 rounded-full bg-purple-200 text-brand-purple font-black flex items-center justify-center text-base">
+                            M
+                        </div>
+                        <div>
+                            <div class="text-sm font-black text-gray-900">Mariana S.</div>
+                            <div class="text-xs text-gray-500 font-bold">Mãe do Theo (7 anos) - Alfabetização & Foco</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- DEPOIMENTO 2 -->
+                <div class="bg-brand-slateSoft p-8 rounded-3xl border border-cyan-100 shadow-sm flex flex-col justify-between relative group hover:border-brand-cyan transition-all duration-300">
+                    <div class="space-y-4">
+                        <div class="flex text-amber-400 gap-1 text-sm">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <p class="text-gray-700 text-sm leading-relaxed italic">
+                            "Receber o diagnóstico de Autismo do nosso filho foi um momento de muitas incertezas. A Fabiana não apenas acolheu nosso pequeno com um amor que comove, mas nos ensinou a montar a rotina visual em casa e conversou diretamente com a coordenação da escola. Ele evoluiu demais na comunicação!"
+                        </p>
+                    </div>
+                    <div class="mt-6 pt-4 border-t border-cyan-100 flex items-center gap-3">
+                        <div class="w-11 h-11 rounded-full bg-cyan-200 text-brand-cyan font-black flex items-center justify-center text-base">
+                            R
+                        </div>
+                        <div>
+                            <div class="text-sm font-black text-gray-900">Renata & Carlos P.</div>
+                            <div class="text-xs text-gray-500 font-bold">Pais do Lucas (5 anos) - Acompanhamento TEA</div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- DEPOIMENTO 3 -->
+                <div class="bg-brand-slateSoft p-8 rounded-3xl border border-amber-100 shadow-sm flex flex-col justify-between relative group hover:border-brand-yellow transition-all duration-300">
+                    <div class="space-y-4">
+                        <div class="flex text-amber-400 gap-1 text-sm">
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                            <i class="fa-solid fa-star"></i>
+                        </div>
+                        <p class="text-gray-700 text-sm leading-relaxed italic">
+                            "Sempre me senti a pessoa mais desorganizada do mundo. Fui diagnosticado com TDAH já na faculdade. O trabalho com a Fabiana me deu técnicas concretas de organização, rotina e foco que mudaram minha vida profissional. Recomendo de olhos fechados para qualquer adulto ou jovem!"
+                        </p>
+                    </div>
+                    <div class="mt-6 pt-4 border-t border-amber-100 flex items-center gap-3">
+                        <div class="w-11 h-11 rounded-full bg-amber-200 text-amber-800 font-black flex items-center justify-center text-base">
+                            G
+                        </div>
+                        <div>
+                            <div class="text-sm font-black text-gray-900">Gabriel Alencar</div>
+                            <div class="text-xs text-gray-500 font-bold">24 anos - Universitário / TDAH Adulto</div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Selo de Avaliação Positiva -->
+            <div class="mt-12 text-center">
+                <div class="inline-flex items-center gap-3 bg-purple-50 px-6 py-3 rounded-full border border-purple-200 text-xs sm:text-sm font-bold text-brand-purple">
+                    <span class="flex text-amber-400"><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i><i class="fa-solid fa-star"></i></span>
+                    <span>Classificação 5 Estrelas em Acolhimento e Eficácia Clínica</span>
+                </div>
+            </div>
+
+        </div>
+    </section>
+
+    <!-- SEÇÃO: POR QUE NÃO ESPERAR? (GATILHO DE URGÊNCIA AMOROSA & NEUROPLASTICIDADE) -->
+    <section class="py-16 bg-gradient-to-r from-purple-50 via-pink-50 to-amber-50 relative overflow-hidden">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            <div class="bg-white rounded-3xl p-8 sm:p-12 shadow-md border-2 border-purple-100 grid grid-cols-1 lg:grid-cols-12 gap-8 items-center">
+                
+                <div class="lg:col-span-8 space-y-4">
+                    <span class="inline-block px-3 py-1 bg-brand-magenta text-white font-black text-xs uppercase tracking-wider rounded-full">
+                        Janela de Oportunidade
+                    </span>
+                    <h2 class="text-2xl sm:text-3xl lg:text-4xl font-extrabold font-display text-gray-900 leading-tight">
+                        O cérebro tem o poder da <span class="text-brand-magenta">Neuroplasticidade</span>. Quanto mais cedo a intervenção, maiores os saltos.
+                    </h2>
+                    <p class="text-gray-600 text-sm sm:text-base leading-relaxed">
+                        Esperar 'o tempo dele' quando já existem sinais de atraso ou sofrimento pode custar anos preciosos de desenvolvimento e consolidar traumas escolares. A intervenção precoce aproveita a fase mais maleável do cérebro para criar novas conexões neurais e devolver a alegria de aprender.
+                    </p>
+                </div>
+
+                <div class="lg:col-span-4 flex flex-col items-center lg:items-end justify-center">
+                    <a href="https://wa.me/5575920014219?text=Ol%C3%A1%2C%20Fabiana!%20N%C3%A3o%20quero%20esperar%20mais.%20Gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o%20o%20quanto%20antes." 
+                       target="_blank"
+                       class="w-full sm:w-auto px-8 py-4 bg-gradient-to-r from-brand-magenta to-pink-600 hover:from-pink-600 hover:to-pink-700 text-white font-black rounded-full text-center text-sm sm:text-base shadow-lg shadow-pink-500/30 hover:scale-105 transition-all flex items-center justify-center gap-2">
+                        <i class="fa-brands fa-whatsapp text-xl"></i>
+                        <span>Garantir Horário na Agenda</span>
+                    </a>
+                    <span class="text-xs text-gray-500 mt-2 font-semibold">Vagas limitadas por período</span>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+    <!-- SEÇÃO PERGUNTAS FREQUENTES (FAQ COM ACCORDION INTERATIVO) -->
+    <section id="faq" class="py-20 bg-brand-slateSoft relative">
+        <div class="max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
+            
+            <div class="text-center space-y-4 mb-16">
+                <span class="px-4 py-1.5 rounded-full bg-purple-100 text-brand-purple text-xs font-black uppercase tracking-wider">
+                    Tire Todas as Dúvidas
+                </span>
+                <h2 class="text-3xl sm:text-4xl font-extrabold font-display text-gray-900 leading-tight">
+                    Perguntas Frequentes sobre o <span class="text-brand-purple">Atendimento</span>
+                </h2>
+                <p class="text-gray-600 text-base">
+                    Esclarecemos as dúvidas mais comuns de pais e pacientes antes de iniciarem o acompanhamento.
+                </p>
+            </div>
+
+            <!-- Acordeão FAQ -->
+            <div class="space-y-4" id="faq-accordion">
+                
+                <!-- FAQ Item 1 -->
+                <div class="faq-item bg-white rounded-2xl border border-purple-100 overflow-hidden shadow-sm transition-all duration-200">
+                    <button class="faq-btn w-full p-6 text-left flex items-center justify-between gap-4 font-black text-gray-900 hover:text-brand-purple transition-colors">
+                        <span class="text-base sm:text-lg">O que faz exatamente uma Neuropsicopedagoga?</span>
+                        <div class="w-8 h-8 rounded-full bg-purple-50 text-brand-purple flex items-center justify-center text-sm flex-shrink-0 transition-transform duration-300 faq-icon">
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </div>
+                    </button>
+                    <div class="faq-content hidden px-6 pb-6 text-sm text-gray-600 leading-relaxed border-t border-gray-100 pt-4">
+                        A Neuropsicopedagoga é a profissional especializada em compreender como o cérebro humano processa, armazena e recupera o conhecimento. Atuamos identificando desvios e dificuldades de aprendizagem (como dislexia, TDAH, autismo e atrasos globais) e criando intervenções práticas para reabilitar e estimular as funções cognitivas (foco, memória, linguagem, raciocínio e autorregulação).
+                    </div>
+                </div>
+
+                <!-- FAQ Item 2 -->
+                <div class="faq-item bg-white rounded-2xl border border-purple-100 overflow-hidden shadow-sm transition-all duration-200">
+                    <button class="faq-btn w-full p-6 text-left flex items-center justify-between gap-4 font-black text-gray-900 hover:text-brand-purple transition-colors">
+                        <span class="text-base sm:text-lg">A partir de qual idade a criança pode iniciar a avaliação?</span>
+                        <div class="w-8 h-8 rounded-full bg-purple-50 text-brand-purple flex items-center justify-center text-sm flex-shrink-0 transition-transform duration-300 faq-icon">
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </div>
+                    </button>
+                    <div class="faq-content hidden px-6 pb-6 text-sm text-gray-600 leading-relaxed border-t border-gray-100 pt-4">
+                        A partir dos 3 a 4 anos já é possível realizar avaliações preliminares do neurodesenvolvimento e estimulação precoce. Para processos de alfabetização, dificuldades escolares e suspeitas de TDAH ou TEA, atendemos da infância à adolescência e também adultos que buscam reabilitação ou autoconhecimento.
+                    </div>
+                </div>
+
+                <!-- FAQ Item 3 -->
+                <div class="faq-item bg-white rounded-2xl border border-purple-100 overflow-hidden shadow-sm transition-all duration-200">
+                    <button class="faq-btn w-full p-6 text-left flex items-center justify-between gap-4 font-black text-gray-900 hover:text-brand-purple transition-colors">
+                        <span class="text-base sm:text-lg">Preciso ter encaminhamento médico para começar?</span>
+                        <div class="w-8 h-8 rounded-full bg-purple-50 text-brand-purple flex items-center justify-center text-sm flex-shrink-0 transition-transform duration-300 faq-icon">
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </div>
+                    </button>
+                    <div class="faq-content hidden px-6 pb-6 text-sm text-gray-600 leading-relaxed border-t border-gray-100 pt-4">
+                        Não é obrigatório ter encaminhamento prévio. Muitas famílias nos procuram por queixas diretas da escola ou por observação em casa. Caso já possua laudo ou encaminhamento de Neuropediatra, Psiquiatra Infantil ou Psicólogo, esse material é integrado à nossa avaliação clínica.
+                    </div>
+                </div>
+
+                <!-- FAQ Item 4 -->
+                <div class="faq-item bg-white rounded-2xl border border-purple-100 overflow-hidden shadow-sm transition-all duration-200">
+                    <button class="faq-btn w-full p-6 text-left flex items-center justify-between gap-4 font-black text-gray-900 hover:text-brand-purple transition-colors">
+                        <span class="text-base sm:text-lg">Como a escola participa do processo?</span>
+                        <div class="w-8 h-8 rounded-full bg-purple-50 text-brand-purple flex items-center justify-center text-sm flex-shrink-0 transition-transform duration-300 faq-icon">
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </div>
+                    </button>
+                    <div class="faq-content hidden px-6 pb-6 text-sm text-gray-600 leading-relaxed border-t border-gray-100 pt-4">
+                        Com autorização da família, mantemos contato com a coordenação pedagógica e os professores. Enviamos questionários específicos de observação comportamental e emitimos orientações pedagógicas práticas para serem aplicadas em sala de aula (adaptação de provas, tempos de descanso e estratégias atencionais).
+                    </div>
+                </div>
+
+                <!-- FAQ Item 5 -->
+                <div class="faq-item bg-white rounded-2xl border border-purple-100 overflow-hidden shadow-sm transition-all duration-200">
+                    <button class="faq-btn w-full p-6 text-left flex items-center justify-between gap-4 font-black text-gray-900 hover:text-brand-purple transition-colors">
+                        <span class="text-base sm:text-lg">Adultos também podem fazer acompanhamento?</span>
+                        <div class="w-8 h-8 rounded-full bg-purple-50 text-brand-purple flex items-center justify-center text-sm flex-shrink-0 transition-transform duration-300 faq-icon">
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </div>
+                    </button>
+                    <div class="faq-content hidden px-6 pb-6 text-sm text-gray-600 leading-relaxed border-t border-gray-100 pt-4">
+                        Com certeza! Atendemos universitários e adultos com dificuldades de concentração, procrastinação, desorganização no trabalho ou que receberam diagnósticos tardios de TDAH ou Autismo Nível 1. Trabalhamos estratégias práticas de funções executivas para a rotina adulta.
+                    </div>
+                </div>
+
+                <!-- FAQ Item 6 -->
+                <div class="faq-item bg-white rounded-2xl border border-purple-100 overflow-hidden shadow-sm transition-all duration-200">
+                    <button class="faq-btn w-full p-6 text-left flex items-center justify-between gap-4 font-black text-gray-900 hover:text-brand-purple transition-colors">
+                        <span class="text-base sm:text-lg">Como agendar e quais são as formas de pagamento?</span>
+                        <div class="w-8 h-8 rounded-full bg-purple-50 text-brand-purple flex items-center justify-center text-sm flex-shrink-0 transition-transform duration-300 faq-icon">
+                            <i class="fa-solid fa-chevron-down"></i>
+                        </div>
+                    </button>
+                    <div class="faq-content hidden px-6 pb-6 text-sm text-gray-600 leading-relaxed border-t border-gray-100 pt-4">
+                        O agendamento é feito de forma simples e rápida diretamente pelo WhatsApp no número <strong>(75) 92001-4219</strong>. Oferecemos pacotes de avaliação completa ou sessões avulsas de intervenção contínua, com condições facilitadas via PIX e cartão de crédito. Emitimos recibos para imposto de renda ou reembolso em convênio (conforme plano de saúde).
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- BLOCO DE OFERTA & CTA FINAL (SALES PAGE GRAND FINALE) -->
+    <section class="py-20 bg-gradient-to-br from-brand-purple via-brand-purpleDark to-indigo-950 text-white relative overflow-hidden">
+        
+        <!-- Elementos Luminosos Circulares da Marca -->
+        <div class="absolute top-0 right-0 w-80 h-80 bg-brand-yellow/20 rounded-full blur-3xl pointer-events-none"></div>
+        <div class="absolute bottom-0 left-0 w-80 h-80 bg-brand-cyan/20 rounded-full blur-3xl pointer-events-none"></div>
+        <div class="absolute top-1/2 left-1/3 w-60 h-60 bg-brand-magenta/20 rounded-full blur-3xl pointer-events-none"></div>
+
+        <div class="max-w-5xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10 text-center space-y-8">
+            
+            <div class="inline-flex items-center gap-2 px-5 py-2 rounded-full bg-white/10 backdrop-blur-md border border-white/20 text-yellow-300 text-xs sm:text-sm font-black uppercase tracking-wider">
+                <i class="fa-solid fa-star animate-spin" style="animation-duration: 8s;"></i>
+                <span>Dê o Primeiro Passo Hoje Mesmo</span>
+            </div>
+
+            <h2 class="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-extrabold font-display leading-tight max-w-4xl mx-auto">
+                Transforme a angústia da dúvida na certeza de um 
+                <span class="text-yellow-300">desenvolvimento pleno</span>.
+            </h2>
+
+            <p class="text-purple-100 text-base sm:text-lg md:text-xl max-w-2xl mx-auto leading-relaxed">
+                Você não precisa passar por esse desafio sozinho. Agende agora uma conversa inicial com <strong>Fabiana Costa</strong> e descubra como a neuropsicopedagogia pode abrir portas para o seu filho ou para você.
+            </p>
+
+            <!-- Card de Contato Destacado -->
+            <div class="bg-white/10 backdrop-blur-xl border border-white/20 p-8 rounded-3xl max-w-xl mx-auto shadow-2xl space-y-6">
+                
+                <div class="flex items-center justify-center gap-3">
+                    <img src="assets/images/logo-icon.png" alt="Fabiana Costa" class="w-12 h-12 object-contain">
+                    <div class="text-left">
+                        <div class="font-extrabold text-white text-lg">Fabiana Costa</div>
+                        <div class="text-xs text-purple-200">Neuropsicopedagoga Especialista</div>
+                    </div>
+                </div>
+
+                <div class="text-yellow-300 text-2xl sm:text-3xl font-black font-display flex items-center justify-center gap-2">
+                    <i class="fa-solid fa-phone text-xl"></i>
+                    <span>(75) 92001-4219</span>
+                </div>
+
+                <a href="https://wa.me/5575920014219?text=Ol%C3%A1%2C%20Fabiana!%20Gostaria%20de%20agendar%20um%20hor%C3%A1rio%20para%20avalia%C3%A7%C3%A3o%20neuropsicopedag%C3%B3gica."
+                   target="_blank"
+                   class="w-full py-4 px-8 bg-gradient-to-r from-green-500 to-emerald-600 hover:from-green-600 hover:to-emerald-700 text-white font-black text-base sm:text-lg rounded-full shadow-lg shadow-green-500/40 hover:shadow-green-500/60 transition-all transform hover:scale-105 flex items-center justify-center gap-3">
+                    <i class="fa-brands fa-whatsapp text-2xl"></i>
+                    <span>Conversar Agora no WhatsApp</span>
+                </a>
+
+                <p class="text-xs text-purple-200">
+                    Clique no botão acima para abrir o WhatsApp diretamente.
+                </p>
+
+            </div>
+
+        </div>
+    </section>
+
+    <!-- FOOTER RODAPÉ RICO & PROFISSIONAL -->
+    <footer class="bg-purple-950 text-white pt-16 pb-12 border-t border-purple-900 relative">
+        <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+            
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-12 gap-10 pb-12 border-b border-purple-900/60">
+                
+                <!-- Coluna 1: Marca & Apresentação (5 Colunas) -->
+                <div class="lg:col-span-5 space-y-5">
+                    <div class="flex items-center gap-3">
+                        <img src="assets/images/logo-horizontal.png" alt="Fabiana Costa Neuropsicopedagoga" class="h-14 w-auto object-contain bg-white/95 p-2 rounded-xl">
+                    </div>
+                    <p class="text-sm text-purple-200/80 leading-relaxed max-w-sm">
+                        Espaço dedicado ao desenvolvimento cognitivo, emocional e pedagógico de crianças, jovens e adultos. Especialista em Autismo (TEA), TDAH, Alfabetização e Comorbidades Globais do Desenvolvimento.
+                    </p>
+                    <div class="flex items-center gap-3 text-purple-300">
+                        <a href="https://wa.me/5575920014219" target="_blank" class="w-10 h-10 rounded-full bg-white/10 hover:bg-green-500 hover:text-white flex items-center justify-center transition-all">
+                            <i class="fa-brands fa-whatsapp text-lg"></i>
+                        </a>
+                        <a href="https://instagram.com" target="_blank" class="w-10 h-10 rounded-full bg-white/10 hover:bg-pink-600 hover:text-white flex items-center justify-center transition-all">
+                            <i class="fa-brands fa-instagram text-lg"></i>
+                        </a>
+                        <a href="tel:75920014219" class="w-10 h-10 rounded-full bg-white/10 hover:bg-brand-cyan hover:text-white flex items-center justify-center transition-all">
+                            <i class="fa-solid fa-phone text-base"></i>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Coluna 2: Links Rápidos (3 Colunas) -->
+                <div class="lg:col-span-3 space-y-4">
+                    <h4 class="text-sm font-black uppercase tracking-wider text-yellow-300">Navegação Rápida</h4>
+                    <ul class="text-sm space-y-2.5 text-purple-200/80 font-medium">
+                        <li><a href="#inicio" class="hover:text-yellow-300 transition-colors">Início</a></li>
+                        <li><a href="#especialidades" class="hover:text-yellow-300 transition-colors">Especialidades (TEA, TDAH)</a></li>
+                        <li><a href="#publico" class="hover:text-yellow-300 transition-colors">Para Quem É</a></li>
+                        <li><a href="#triagem" class="hover:text-yellow-300 transition-colors">Triagem Rápida Online</a></li>
+                        <li><a href="#metodo" class="hover:text-yellow-300 transition-colors">Como Funciona o Processo</a></li>
+                        <li><a href="#sobre" class="hover:text-yellow-300 transition-colors">Sobre Fabiana Costa</a></li>
+                        <li><a href="#faq" class="hover:text-yellow-300 transition-colors">Perguntas Frequentes</a></li>
+                    </ul>
+                </div>
+
+                <!-- Coluna 3: Contato Direto (4 Colunas) -->
+                <div class="lg:col-span-4 space-y-4">
+                    <h4 class="text-sm font-black uppercase tracking-wider text-yellow-300">Contato & Agendamento</h4>
+                    <div class="space-y-3 text-sm text-purple-200/80">
+                        <div class="flex items-start gap-3">
+                            <i class="fa-brands fa-whatsapp text-green-400 text-lg mt-0.5"></i>
+                            <div>
+                                <div class="font-bold text-white">WhatsApp & Telefone:</div>
+                                <a href="https://wa.me/5575920014219" target="_blank" class="hover:text-yellow-300 transition-colors">
+                                    (75) 92001-4219
+                                </a>
+                            </div>
+                        </div>
+                        <div class="flex items-start gap-3">
+                            <i class="fa-solid fa-calendar-check text-cyan-400 text-lg mt-0.5"></i>
+                            <div>
+                                <div class="font-bold text-white">Horário de Atendimento:</div>
+                                <span>Segunda a Sexta: 08h às 18h<br>Sábados com agendamento prévio</span>
+                            </div>
+                        </div>
+                        <div class="flex items-start gap-3">
+                            <i class="fa-solid fa-location-dot text-pink-400 text-lg mt-0.5"></i>
+                            <div>
+                                <div class="font-bold text-white">Modalidades:</div>
+                                <span>Presencial & Consultoria/Orientação Online</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <!-- Linha Inferior com Copyright -->
+            <div class="pt-8 flex flex-col sm:flex-row items-center justify-between gap-4 text-xs text-purple-300/70">
+                <p>&copy; 2026 Fabiana Costa - Neuropsicopedagoga. Todos os direitos reservados.</p>
+                <p class="flex items-center gap-1">
+                    <span>Feito com</span>
+                    <i class="fa-solid fa-heart text-pink-500"></i>
+                    <span>e Neurociência para transformar vidas.</span>
+                </p>
+            </div>
+
+        </div>
+    </footer>
+
+    <!-- BOTÃO FLUTUANTE DO WHATSAPP COM BALÃO DE MENSAGEM DINÂMICO -->
+    <div class="fixed bottom-6 right-6 z-50 flex items-end gap-3 group">
+        
+        <!-- Balão de Texto de Apoio (Tooltip Pulsante) -->
+        <div id="wa-bubble-popup" class="hidden sm:flex bg-white text-gray-800 p-3 rounded-2xl shadow-2xl border border-green-200 text-xs font-bold items-center gap-2 animate-bounce max-w-[220px]">
+            <span class="w-2.5 h-2.5 rounded-full bg-green-500"></span>
+            <span>Olá! Precisa de ajuda com seu filho(a)? Fale comigo!</span>
+        </div>
+
+        <!-- Botão Principal com Ícone -->
+        <a href="https://wa.me/5575920014219?text=Ol%C3%A1%2C%20Fabiana!%20Estou%20no%20seu%20site%20e%20gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20atendimento."
+           target="_blank"
+           aria-label="Abrir conversa no WhatsApp"
+           class="w-16 h-16 rounded-full bg-gradient-to-tr from-green-500 to-emerald-600 text-white flex items-center justify-center text-3xl shadow-2xl shadow-green-600/50 hover:scale-110 active:scale-95 transition-all duration-300 relative">
+            <span class="absolute inset-0 rounded-full bg-green-400 animate-ping opacity-30"></span>
+            <i class="fa-brands fa-whatsapp relative z-10"></i>
+        </a>
+    </div>
+
+    <!-- Scripts do Site -->
+    <script src="script.js"></script>
+</body>
+</html>

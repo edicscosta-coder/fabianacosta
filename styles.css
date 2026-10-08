@@ -1,0 +1,99 @@
+/* ========================================================
+   FABIANA COSTA - NEUROPSICOPEDAGOGA
+   Folha de Estilos Customizados & Micro-Interações
+   Paleta: Roxo (#6B359C), Ciano (#00A9E0), Amarelo (#FFAE19), 
+           Verde (#68BC45), Magenta (#E61875)
+   ======================================================== */
+
+:root {
+    --brand-purple: #6B359C;
+    --brand-purple-dark: #53227E;
+    --brand-purple-light: #8B4EC5;
+    --brand-yellow: #FFAE19;
+    --brand-green: #68BC45;
+    --brand-cyan: #00A9E0;
+    --brand-magenta: #E61875;
+    --brand-blue: #0288D1;
+}
+
+/* Suavização de Rolagem e Seleção */
+html {
+    scroll-behavior: smooth;
+    -webkit-font-smoothing: antialiased;
+}
+
+/* Barra de rolagem estilizada e alegre */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #F8FAFC;
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(180deg, #6B359C 0%, #00A9E0 50%, #FFAE19 100%);
+    border-radius: 9999px;
+    border: 2px solid #F8FAFC;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: linear-gradient(180deg, #53227E 0%, #0288D1 50%, #E61875 100%);
+}
+
+/* Efeito de Card Flutuante e Glow */
+.quiz-item {
+    transition: all 0.25s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.quiz-item:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 20px -4px rgba(255, 174, 25, 0.2);
+}
+
+.quiz-checkbox:checked + span {
+    color: #FDE047;
+    font-weight: 800;
+}
+
+/* Accordion de FAQ suave */
+.faq-content {
+    transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.faq-btn.active .faq-icon {
+    transform: rotate(180deg);
+    background-color: #6B359C;
+    color: #FFFFFF;
+}
+
+/* Molduras Lúdicas com Bolhas Orgânicas */
+.blob-shape-1 {
+    border-radius: 42% 58% 70% 30% / 45% 45% 55% 55%;
+}
+
+.blob-shape-2 {
+    border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%;
+}
+
+/* Efeito de Vidro Fosco (Glassmorphism) */
+.glass-panel {
+    background: rgba(255, 255, 255, 0.85);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+    border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+/* Efeito de pulsar para o WhatsApp */
+@keyframes heartPulse {
+    0%, 100% {
+        transform: scale(1);
+    }
+    50% {
+        transform: scale(1.06);
+    }
+}
+
+.pulse-wa {
+    animation: heartPulse 2.5s infinite ease-in-out;
+}
