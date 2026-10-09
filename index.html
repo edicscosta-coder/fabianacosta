@@ -91,93 +91,196 @@
 <body class="bg-brand-cream text-gray-800 font-sans antialiased overflow-x-hidden selection:bg-brand-yellow selection:text-brand-purpleDark">
 
     <!-- BARRA DE AVISO SUPERIOR (TOP ANNOUNCEMENT BAR) -->
-    <div class="bg-gradient-to-r from-brand-purple via-brand-magenta to-brand-blue text-white py-2.5 px-4 text-xs sm:text-sm font-semibold tracking-wide relative z-50">
-        <div class="max-w-7xl mx-auto flex flex-col sm:flex-row items-center justify-between gap-2 text-center sm:text-left">
-            <div class="flex items-center gap-2 justify-center">
-                <span class="inline-flex items-center justify-center w-5 h-5 bg-yellow-400 text-brand-purpleDark rounded-full text-xs font-bold animate-bounce">
-                    <i class="fa-solid fa-star"></i>
+    <div class="bg-gradient-to-r from-brand-purpleDark via-brand-purple to-brand-blue text-white py-2 px-4 text-xs font-semibold tracking-wide relative z-50 border-b border-white/10 shadow-sm">
+        <div class="max-w-7xl mx-auto flex flex-col md:flex-row items-center justify-between gap-1.5 md:gap-4 text-center md:text-left">
+            <div class="flex items-center gap-2 justify-center flex-wrap">
+                <span class="inline-flex items-center gap-1 bg-yellow-400 text-brand-purpleDark px-2 py-0.5 rounded-full text-[11px] font-black uppercase tracking-wider shadow-sm">
+                    <i class="fa-solid fa-star text-[10px]"></i> Especialista
                 </span>
-                <span>Atendimento Presencial e Online | Especialista em <strong>TEA</strong>, <strong>TDAH</strong> e <strong>Alfabetização</strong></span>
+                <span class="text-white/95">
+                    Atendimento Presencial e Online em <strong>Feira de Santana e Região</strong> | TEA • TDAH • Alfabetização
+                </span>
             </div>
-            <a href="https://wa.me/5575920014219?text=Ol%C3%A1%2C%20Fabiana!%20Vi%20o%20seu%20site%20e%20gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20o%20atendimento%20neuropsicopedag%C3%B3gico." 
-               target="_blank" 
-               class="inline-flex items-center gap-1.5 bg-white/20 hover:bg-white text-white hover:text-brand-purpleDark px-3 py-1 rounded-full transition-all duration-300 text-xs font-bold backdrop-blur-sm shadow-sm">
-                <i class="fa-brands fa-whatsapp text-green-300"></i>
-                <span>Fale Conosco: (75) 92001-4219</span>
-            </a>
+            <div class="flex items-center gap-3">
+                <a href="https://wa.me/5575920014219?text=Ol%C3%A1%2C%20Fabiana!%20Vi%20o%20seu%20site%20e%20gostaria%20de%20informa%C3%A7%C3%B5es%20sobre%20o%20atendimento%20neuropsicopedag%C3%B3gico." 
+                   target="_blank" 
+                   class="inline-flex items-center gap-2 text-white hover:text-yellow-300 transition-colors font-bold text-xs py-0.5">
+                    <span class="relative flex h-2 w-2">
+                        <span class="animate-ping absolute inline-flex h-full w-full rounded-full bg-green-400 opacity-75"></span>
+                        <span class="relative inline-flex rounded-full h-2 w-2 bg-green-400"></span>
+                    </span>
+                    <i class="fa-brands fa-whatsapp text-green-300 text-sm"></i>
+                    <span>(75) 92001-4219</span>
+                </a>
+            </div>
         </div>
     </div>
 
-    <!-- NAVBAR NAVEGAÇÃO -->
-    <header id="navbar" class="sticky top-0 z-40 bg-white/90 backdrop-blur-md border-b border-purple-100 transition-all duration-300">
+    <!-- NAVBAR NAVEGAÇÃO PRINCIPAL -->
+    <header id="navbar" class="sticky top-0 z-40 bg-white/95 backdrop-blur-md border-b border-purple-100/80 transition-all duration-300">
         <div class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-            <div class="flex items-center justify-between h-20">
-                <!-- Logotipo Horizontal -->
-                <a href="#inicio" class="flex items-center gap-3 group">
-                    <img data-logo="horizontal" src="assets/images/logo-horizontal.png" alt="Fabiana Costa - Neuropsicopedagoga" class="h-12 sm:h-14 w-auto object-contain transition-transform duration-300 group-hover:scale-105">
+            <div class="flex items-center justify-between h-20 gap-4">
+                
+                <!-- 1. Logotipo Oficial Fabiana Costa -->
+                <a href="#inicio" class="flex items-center gap-3 group shrink-0 py-1" aria-label="Fabiana Costa - Página Inicial">
+                    <img data-logo="horizontal" src="assets/images/logo-horizontal.png" alt="Fabiana Costa - Neuropsicopedagoga" class="h-11 sm:h-13 md:h-14 w-auto object-contain transition-transform duration-300 group-hover:scale-102">
                 </a>
 
-                <!-- Menu Desktop -->
-                <nav class="hidden lg:flex items-center gap-7 text-sm font-bold text-gray-700">
-                    <a href="#inicio" class="text-brand-purple hover:text-brand-magenta transition-colors">Início</a>
-                    <a href="#especialidades" class="hover:text-brand-purple transition-colors">Especialidades</a>
-                    <a href="#publico" class="hover:text-brand-purple transition-colors">Para Quem É</a>
-                    <a href="#triagem" class="hover:text-brand-purple transition-colors flex items-center gap-1.5 text-brand-magenta font-extrabold">
-                        <span class="w-2 h-2 rounded-full bg-brand-magenta animate-ping"></span>
-                        Triagem Rápida
+                <!-- 2. Menu Desktop Central Organizado -->
+                <nav class="hidden lg:flex items-center gap-1.5 xl:gap-2 text-[14px] font-bold text-gray-700" aria-label="Navegação Principal">
+                    <a href="#especialidades" class="px-3 py-2 rounded-full hover:text-brand-purple hover:bg-purple-50 transition-all duration-200">
+                        Especialidades
                     </a>
-                    <a href="#metodo" class="hover:text-brand-purple transition-colors">Como Funciona</a>
-                    <a href="#sobre" class="hover:text-brand-purple transition-colors">Sobre Fabiana</a>
-                    <a href="#depoimentos" class="hover:text-brand-purple transition-colors">Depoimentos</a>
-                    <a href="#faq" class="hover:text-brand-purple transition-colors">Dúvidas</a>
+                    <a href="#publico" class="px-3 py-2 rounded-full hover:text-brand-purple hover:bg-purple-50 transition-all duration-200">
+                        Público
+                    </a>
+                    <a href="#metodo" class="px-3 py-2 rounded-full hover:text-brand-purple hover:bg-purple-50 transition-all duration-200">
+                        Metodologia
+                    </a>
+                    <a href="#sobre" class="px-3 py-2 rounded-full hover:text-brand-purple hover:bg-purple-50 transition-all duration-200">
+                        Sobre Fabiana
+                    </a>
+                    <a href="#depoimentos" class="px-3 py-2 rounded-full hover:text-brand-purple hover:bg-purple-50 transition-all duration-200">
+                        Depoimentos
+                    </a>
+                    <a href="#faq" class="px-3 py-2 rounded-full hover:text-brand-purple hover:bg-purple-50 transition-all duration-200">
+                        Dúvidas
+                    </a>
+                    
+                    <!-- Botão/Pílula de Destaque: Teste de Triagem -->
+                    <a href="#triagem" class="ml-1 inline-flex items-center gap-1.5 px-3.5 py-1.5 rounded-full text-xs font-black bg-gradient-to-r from-magenta-50 to-purple-50 text-brand-magenta hover:from-brand-magenta hover:to-brand-purple hover:text-white border border-brand-magenta/30 transition-all duration-300 shadow-xs group">
+                        <i class="fa-solid fa-clipboard-check text-brand-magenta group-hover:text-white transition-colors"></i>
+                        <span>Triagem Rápida</span>
+                    </a>
                 </nav>
 
-                <!-- Botão CTA Desktop -->
-                <div class="hidden sm:flex items-center gap-3">
+                <!-- 3. Ações no Canto Direito (CTA & Contato) -->
+                <div class="flex items-center gap-2 sm:gap-3">
+                    
+                    <!-- Botão Agendar no WhatsApp (Visível em Desktop e Tablets) -->
                     <a href="https://wa.me/5575920014219?text=Ol%C3%A1%2C%20Dra.%20Fabiana!%20Gostaria%20de%20agendar%20uma%20avalia%C3%A7%C3%A3o%20neuropsicopedag%C3%B3gica."
                        target="_blank"
-                       class="relative group overflow-hidden bg-gradient-to-r from-brand-purple to-brand-purpleLight text-white px-5 py-2.5 rounded-full font-bold text-sm shadow-soft-colored hover:shadow-lg transition-all duration-300 flex items-center gap-2 hover:-translate-y-0.5">
+                       class="hidden sm:inline-flex relative group overflow-hidden bg-gradient-to-r from-brand-purple to-brand-purpleLight text-white px-4 md:px-5 py-2.5 rounded-full font-extrabold text-xs md:text-sm shadow-soft-colored hover:shadow-lg transition-all duration-300 items-center gap-2 hover:-translate-y-0.5">
                         <span class="absolute inset-0 w-full h-full bg-gradient-to-r from-brand-yellow via-brand-magenta to-brand-cyan opacity-0 group-hover:opacity-100 transition-opacity duration-500"></span>
                         <span class="relative z-10 flex items-center gap-2">
-                            <i class="fa-brands fa-whatsapp text-lg text-white"></i>
+                            <i class="fa-brands fa-whatsapp text-lg text-green-300"></i>
                             <span>Agendar Avaliação</span>
                         </span>
                     </a>
-                </div>
 
-                <!-- Botão Mobile Toggle -->
-                <div class="lg:hidden flex items-center gap-2">
-                    <a href="https://wa.me/5575920014219" target="_blank" class="w-10 h-10 rounded-full bg-green-500 text-white flex items-center justify-center text-lg shadow-md hover:bg-green-600 transition">
+                    <!-- Botão WhatsApp Direto no Mobile (Apenas em telas pequenas < 640px onde o botão grande fica oculto) -->
+                    <a href="https://wa.me/5575920014219?text=Ol%C3%A1%2C%20Dra.%20Fabiana!%20Gostaria%20de%20informa%C3%A7%C3%B5es."
+                       target="_blank"
+                       class="sm:hidden w-10 h-10 rounded-xl bg-green-500 text-white flex items-center justify-center text-lg shadow-sm hover:bg-green-600 transition"
+                       aria-label="Chamar no WhatsApp">
                         <i class="fa-brands fa-whatsapp"></i>
                     </a>
-                    <button id="mobile-menu-btn" class="w-10 h-10 rounded-xl bg-purple-50 text-brand-purple flex items-center justify-center hover:bg-purple-100 transition" aria-label="Abrir Menu">
-                        <i class="fa-solid fa-bars text-xl" id="menu-icon"></i>
+
+                    <!-- Botão Toggle do Menu Mobile (Visível apenas em telas < lg) -->
+                    <button id="mobile-menu-btn" 
+                            class="lg:hidden w-10 h-10 rounded-xl bg-purple-50 text-brand-purple hover:bg-purple-100 border border-purple-200/60 flex items-center justify-center transition focus:outline-none" 
+                            aria-label="Abrir Menu de Navegação">
+                        <i class="fa-solid fa-bars text-lg" id="menu-icon"></i>
                     </button>
                 </div>
             </div>
         </div>
 
-        <!-- Menu Mobile Drawer -->
-        <div id="mobile-menu" class="hidden lg:hidden bg-white/95 backdrop-blur-xl border-b border-purple-100 px-6 py-6 transition-all duration-300">
-            <div class="flex flex-col gap-4 font-bold text-gray-700">
-                <a href="#inicio" class="mobile-link text-brand-purple py-2 border-b border-gray-100">Início</a>
-                <a href="#especialidades" class="mobile-link py-2 border-b border-gray-100">Especialidades (TEA, TDAH, Alfabetização)</a>
-                <a href="#publico" class="mobile-link py-2 border-b border-gray-100">Para Quem É (Crianças, Jovens, Adultos)</a>
-                <a href="#triagem" class="mobile-link py-2 border-b border-gray-100 text-brand-magenta flex items-center justify-between">
-                    <span>Teste de Triagem Rápida</span>
-                    <span class="px-2 py-0.5 text-xs bg-magenta-100 text-brand-magenta rounded-full font-bold">Interativo</span>
-                </a>
-                <a href="#metodo" class="mobile-link py-2 border-b border-gray-100">Metodologia Clínica</a>
-                <a href="#sobre" class="mobile-link py-2 border-b border-gray-100">Sobre Fabiana Costa</a>
-                <a href="#depoimentos" class="mobile-link py-2 border-b border-gray-100">Depoimentos de Famílias</a>
-                <a href="#faq" class="mobile-link py-2 border-b border-gray-100">Perguntas Frequentes</a>
+        <!-- 4. Menu Mobile Drawer Redesenhado & Organizado por Cartões -->
+        <div id="mobile-menu" class="hidden lg:hidden bg-white/98 backdrop-blur-xl border-b border-purple-100 px-4 sm:px-6 py-5 transition-all duration-300 shadow-xl max-h-[85vh] overflow-y-auto">
+            <div class="flex flex-col gap-2 font-bold text-gray-700">
                 
-                <div class="pt-3">
+                <!-- Card de Triagem em Destaque no topo do Mobile -->
+                <a href="#triagem" class="mobile-link flex items-center justify-between p-3.5 rounded-2xl bg-gradient-to-r from-magenta-50 to-purple-50 border border-brand-magenta/20 text-brand-purpleDark hover:shadow-sm transition">
+                    <div class="flex items-center gap-3">
+                        <div class="w-9 h-9 rounded-xl bg-brand-magenta text-white flex items-center justify-center text-sm shadow-xs">
+                            <i class="fa-solid fa-clipboard-check"></i>
+                        </div>
+                        <div>
+                            <span class="block text-sm font-extrabold text-brand-magenta">Teste de Triagem Rápida</span>
+                            <span class="block text-xs text-gray-500 font-semibold">Descubra sinais em menos de 1 minuto</span>
+                        </div>
+                    </div>
+                    <span class="text-xs font-bold text-brand-magenta bg-white px-2 py-0.5 rounded-full border border-magenta-200">Iniciar</span>
+                </a>
+
+                <!-- Divisor / Navegação por Seções -->
+                <div class="pt-2 pb-1 text-xs font-extrabold uppercase tracking-wider text-gray-400 px-2">
+                    Navegação do Site
+                </div>
+
+                <!-- Lista de Links Organizados com Ícones Lúdicos e Amigáveis -->
+                <a href="#inicio" class="mobile-link flex items-center gap-3 p-3 rounded-xl hover:bg-purple-50 transition border border-transparent hover:border-purple-100">
+                    <span class="w-8 h-8 rounded-lg bg-purple-100 text-brand-purple flex items-center justify-center text-sm">
+                        <i class="fa-solid fa-house"></i>
+                    </span>
+                    <span class="text-sm font-bold text-gray-800">Início</span>
+                </a>
+
+                <a href="#especialidades" class="mobile-link flex items-center gap-3 p-3 rounded-xl hover:bg-cyan-50 transition border border-transparent hover:border-cyan-100">
+                    <span class="w-8 h-8 rounded-lg bg-cyan-100 text-brand-cyan flex items-center justify-center text-sm">
+                        <i class="fa-solid fa-puzzle-piece"></i>
+                    </span>
+                    <div class="text-left">
+                        <span class="block text-sm font-bold text-gray-800">Especialidades</span>
+                        <span class="block text-xs text-gray-500 font-normal">TEA, TDAH, Alfabetização</span>
+                    </div>
+                </a>
+
+                <a href="#publico" class="mobile-link flex items-center gap-3 p-3 rounded-xl hover:bg-amber-50 transition border border-transparent hover:border-amber-100">
+                    <span class="w-8 h-8 rounded-lg bg-amber-100 text-brand-yellow flex items-center justify-center text-sm">
+                        <i class="fa-solid fa-users"></i>
+                    </span>
+                    <div class="text-left">
+                        <span class="block text-sm font-bold text-gray-800">Público Atendido</span>
+                        <span class="block text-xs text-gray-500 font-normal">Crianças, Jovens e Adultos</span>
+                    </div>
+                </a>
+
+                <a href="#metodo" class="mobile-link flex items-center gap-3 p-3 rounded-xl hover:bg-green-50 transition border border-transparent hover:border-green-100">
+                    <span class="w-8 h-8 rounded-lg bg-green-100 text-brand-green flex items-center justify-center text-sm">
+                        <i class="fa-solid fa-route"></i>
+                    </span>
+                    <div class="text-left">
+                        <span class="block text-sm font-bold text-gray-800">Como Funciona</span>
+                        <span class="block text-xs text-gray-500 font-normal">Metodologia em 4 Passos</span>
+                    </div>
+                </a>
+
+                <a href="#sobre" class="mobile-link flex items-center gap-3 p-3 rounded-xl hover:bg-purple-50 transition border border-transparent hover:border-purple-100">
+                    <span class="w-8 h-8 rounded-lg bg-purple-100 text-brand-purple flex items-center justify-center text-sm">
+                        <i class="fa-solid fa-user-doctor"></i>
+                    </span>
+                    <div class="text-left">
+                        <span class="block text-sm font-bold text-gray-800">Sobre Fabiana Costa</span>
+                        <span class="block text-xs text-gray-500 font-normal">Neuropsicopedagoga Clínica</span>
+                    </div>
+                </a>
+
+                <a href="#depoimentos" class="mobile-link flex items-center gap-3 p-3 rounded-xl hover:bg-yellow-50 transition border border-transparent hover:border-yellow-100">
+                    <span class="w-8 h-8 rounded-lg bg-yellow-100 text-yellow-600 flex items-center justify-center text-sm">
+                        <i class="fa-solid fa-comments"></i>
+                    </span>
+                    <span class="text-sm font-bold text-gray-800">Depoimentos de Famílias</span>
+                </a>
+
+                <a href="#faq" class="mobile-link flex items-center gap-3 p-3 rounded-xl hover:bg-blue-50 transition border border-transparent hover:border-blue-100">
+                    <span class="w-8 h-8 rounded-lg bg-blue-100 text-brand-blue flex items-center justify-center text-sm">
+                        <i class="fa-solid fa-circle-question"></i>
+                    </span>
+                    <span class="text-sm font-bold text-gray-800">Perguntas Frequentes (FAQ)</span>
+                </a>
+
+                <!-- Card de Contato e Ação no Rodapé do Menu Mobile -->
+                <div class="pt-3 mt-2 border-t border-purple-100 flex flex-col gap-2.5">
                     <a href="https://wa.me/5575920014219?text=Ol%C3%A1%2C%20Fabiana!%20Gostaria%20de%20agendar%20uma%20consulta." target="_blank"
-                       class="w-full bg-brand-purple text-white text-center py-3 rounded-full font-extrabold flex items-center justify-center gap-2 shadow-md">
+                       class="w-full bg-gradient-to-r from-brand-purple to-brand-purpleLight text-white text-center py-3.5 px-4 rounded-xl font-black text-sm flex items-center justify-center gap-2 shadow-md hover:opacity-95 transition">
                         <i class="fa-brands fa-whatsapp text-green-300 text-xl"></i>
-                        <span>Falar no WhatsApp (75) 92001-4219</span>
+                        <span>Falar no WhatsApp: (75) 92001-4219</span>
                     </a>
+                    <div class="text-center text-xs text-gray-500 font-semibold">
+                        <span>Atendimento com Hora Marcada • Feira de Santana e Online</span>
+                    </div>
                 </div>
             </div>
         </div>
